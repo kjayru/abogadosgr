@@ -1,0 +1,772 @@
+/**Colores*
+#E2E3E5
+#8D9298
+#6B9CA3
+#1C2633
+#B7BABE
+#03C7C7
+#706F6F
+#008B84
+#FD9C00
+*/
+.gris-claro{
+    color:#E2E3E5;
+}
+.gris-oscuro{
+    color:#8D9298;
+}
+.fondo-verde{
+    background-color:#6B9CA3;
+}
+.fondo-verde2{
+    background-color: #008B84;
+}
+.texto-gris{
+    color:#706F6F;
+}
+.texto-grisclaro{
+    color:#B7BABE;
+}
+.texto-white{
+    color:white !important;
+}
+.texto-verde{
+    color:#03C7C7;
+}
+.texto-verde2{
+    color:#008B84;
+}
+.texto-rojo{
+    color:#D32C4F;
+}
+.texto-azul{
+    color:#335086;
+}
+.texto-marron{
+    color:#9B8B7C;
+}
+
+.fondo-boton{
+    background-color:#FD9C00;
+}
+.texto-azul{
+    color:#335086;
+}
+.texto-marron{
+    color:#9B8B7C;
+}
+.fondo-oscuro{
+    background-color: #1C2633;
+}
+.fondo-gris{
+    background-color:#8D9298;
+}
+.fondo-gris2{
+    background-color: #E2E3E5;
+}
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+    color:#706F6F;
+}
+
+.lienzo {
+    height: 100vh;
+}
+.titulo {
+    font-size: 6rem;
+    font-family: 'helvetica';
+    margin-bottom: 65px;
+}
+.subtitulo {
+    font-size: 3rem;
+    font-family: 'helvetica';
+    margin-bottom: 65px;
+    font-weight: bold;
+    position: relative;
+}
+.subtitulo:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #707070;
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    z-index: 1000;
+}
+.ending:after{
+    content: "";
+    width: 239px;
+    height: 1px;
+    background-color:#707070;
+    position: absolute;
+    top: 84px;
+    left: 5px;
+    z-index: 1000;
+}
+.pl-7{
+    padding-left: 7rem !important;
+}
+footer{
+    color:white;
+}
+
+a.nav-link {
+    font-size: 20px;
+}
+
+#home #section1{
+    background: url('/images/Hombre-traje.png');
+    background-size:cover;
+}
+.bg-montain{
+    background-image: url('/images/Paisaje-Monterrey-RecortadoGris.jpg');
+    background-size: cover;
+}
+
+
+.bg1 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1;
+}
+.relativo{
+    position: relative;
+}
+
+.logo {
+    padding-top: 30%;
+    z-index: 2;
+    position: relative;
+}
+.botones {
+    border-radius: 23px;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.bg2{
+    background:url('/images/Estatua-Justicia-recortado.png') no-repeat left bottom;
+}
+
+.texto-1 {
+    width: 500px;
+    height: 500px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px auto;
+}
+
+.bg-circular{
+    background: url('/images/Circulo-Frases.png');
+    background-size: contain;
+}
+.tituloverde {
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 125px;
+}
+
+.marco {
+    height: calc(100vh - 90px);
+    display: block;
+}
+.relativo{
+    position: relative;
+}
+
+.flotante {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.ajedrez{
+    background: url('/images/Ajedrez02-recortado.jpg');
+    background-size: cover;
+}
+.radiopress{
+    position: relative;
+}
+
+.radiopress picture {
+    padding: 50px 50px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+}
+.radiopress:after {
+    content: "";
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border: 1px solid green;
+    border-radius: 50%;
+    top: -21px;
+    left: -15px;
+}
+.blq-casos{
+    background-color: #1C2633;
+    color: white;
+    padding: 15px 0 0 70px;
+}
+
+.blq-casos p {
+    padding-right: 40px;
+    line-height: 37px;
+    font-size: 20px;
+}
+
+h2.texto-verde.casos-texto {
+    font-size: 5rem;
+    line-height: 65px;
+    padding-top: 57px;
+}
+.blq-contacto{
+    background-color: #8D9298;
+    padding-left: 50px;
+}
+
+.pad {
+    padding-top: 100px;
+}
+.pad-left {
+    padding-left: 100px;
+}
+.pad-bottom {
+    padding-bottom: 100px;
+}
+.pad-right {
+    padding-right: 50px;
+}
+
+form.formgen .form-control {
+    padding: 45px 30px 45px 30px;
+    background: rgba(250,250,250,0.7);
+    font-size: 25px;
+}
+
+footer.footer.fondo-verde {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+.titulo-bold {
+    font-weight: bold;
+}
+.blq-contacto .subtitulo {
+    padding-top: 43%;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.copy p {
+    display: block;
+    width: 100%;
+}
+.bg-nosotros{
+    background:url(/images/ManoBalanza-recortado.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.bloq {
+    padding-top: 15%;
+}
+.bg-nosotros-2{
+    background:url(/images/MazoFirma.jpg) no-repeat center center;
+    background-size: cover;
+}
+.pad-10{
+    padding: 6rem!important;
+}
+.bg-nosotros-3{
+    background:url(/images/Nuestros-abogados.jpg) no-repeat center center;
+    background-size: cover;
+}
+.titulo-abogado:after{
+    content:"";
+    width: 95%;
+    position: absolute;
+    height: 1px;
+    background: #03C7C7;
+    bottom: 0;
+    left: 3%;
+}
+.titulo-abogado:before{
+    content: "";
+    background: url(/images/Abogados-icono.png) no-repeat center center;
+    width: 82px;
+    height: 128px;
+    position: absolute;
+    right: 55px;
+    bottom: 0;
+    background-size: cover;
+}
+h1.titulo-abogado {
+    padding-top: 111px;
+    padding-left: 4rem;
+    font-size: 7rem;
+    line-height: 90px;
+    font-weight: 700;
+}
+h1.titulo-abogado span{
+    color: #03C7C7;
+}
+
+h1.titulo-alcance {
+    padding-top: 90px;
+    padding-left: 4rem;
+    font-size: 7rem;
+    line-height: 105px;
+    font-weight: 700;
+}
+
+.titulo-alcance:after{
+    content:"";
+    width: 95%;
+    position: absolute;
+    height: 1px;
+    background: #03C7C7;
+    bottom: 0;
+    left: 3%;
+}
+
+.texto-pad1{
+    font-size: 25px;
+    padding: 60px;
+    text-align: justify;
+}
+.back-green{
+    background:#03C7C7;
+}
+.back-grey{
+    background:#E2E3E5;
+}
+.back-green-oscuro{
+    background:#008B84;
+}
+.titulo2 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 71px;
+}
+
+.titulo-blq {
+    text-align: right;
+}
+.nosotros-content .contenido {
+    padding: 20px 200px 200px 30px;
+    font-size: 1.7rem;
+    font-weight: lighter !important;
+}
+.bloque{
+    padding: 35px 40px 0 50px;
+}
+.back-green .contenido {
+    padding-top: 200px;
+}
+.back-green .contenido {
+    padding-top: 200px;
+}
+.back-grey .contenido {
+    padding-top: 150px;
+}
+.bg-nosotros-4{
+    background:url(/images/AlcanceInternacional.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+h1.titulo-seccion {
+    font-size: 11rem;
+    line-height: 135px;
+    font-weight: 700;
+}
+
+
+.ascensor{
+    padding-left: 45px;
+    position: relative;
+}
+.ascensor h5 button {
+    font-size: 3.7rem;
+    width: 100%;
+    color: #706F6F;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 4rem;
+}
+
+.asc1:after{
+    content: "";
+    background: url(/images/Servicio-Inmobiliario.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+.asc2:after{
+    content:"";
+    background: url(/images/Servicio-Corporativo.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+.asc3:after{
+    content:"";
+    background: url(/images/Servicio-Agrario.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+
+
+.asc4:after{
+    content:"";
+    background: url(/images/Servicio-Administrativo.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+
+.asc5:after{
+    content:"";
+    background: url(/images/Servicio-Laboral.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+.asc6:after{
+    content:"";
+    background: url(/images/Servicio-PropiedadIntelectual.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+.asc7:after{
+    content:"";
+    background: url(/images/Servicio-Bancario.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+
+.asc8:after{
+    content:"";
+    background: url(/images/Servicio-Penal.png) no-repeat 0px 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    top: 37px;
+}
+
+
+
+.radio:before{
+    content: "";
+    background-color: #E2E3E5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+#accordion .card {
+    border: 0 !important;
+}
+#accordion .card-header {
+    background-color: transparent;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.lawyer1{
+    background: url(/images/Jaime03-areapractica.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.lawyer2{
+    background: url(/images/Hernan02-areapractica.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.lawyer3{
+    background: url(/images/FcoJavier-areapractica.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.lawyer4{
+    background: url(/images/Oziel-areapractica.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+
+.boxlaw {
+    background: #008B84;
+    color: white;
+    width: 280px;
+    height: 280px;
+    font-size: 3rem;
+    line-height: 43px;
+    position: relative;
+    padding-top: 107px;
+    padding-left: 32px;
+    font-weight: 500;
+}
+.bright {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+}
+.bright span,.bleft span {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.bleft {
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+}
+
+.texto-law {
+    font-size: 1.4rem;
+    min-height: 600px;
+    font-weight: 100;
+}
+
+.bloque-casos {
+    background: #03C7C7;
+    color: white;
+    padding: 35px 120px 30px 41px;
+    left: 70px;
+    position: absolute;
+    z-index: 101;
+    top: 45%;
+    width: 51%;
+    font-size: 2.5rem;
+    line-height: 44px;
+}
+.texto-section {
+    font-size: 2.5rem;
+    line-height: 48px;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+#casos .card {
+    max-width: 430px;
+    margin: 0 auto;
+    border: 0;
+}
+.bg-contacto {
+    background: url(/images/Contacto-recortado.jpg);
+    background-size: cover;
+    padding-top: 290px !important;
+    padding-bottom: 220px !important;
+}
+.slider .card-header {
+    padding: 39px 0 0 0;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+.slider .card-body {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    height: 300px;
+}
+.slider .card-body .cuadro{
+    position: absolute;
+    z-index: 1;
+    padding: 30px 16px;
+    background: #6B9CA3;
+    color: white;
+    height: 100%;
+    width: 100%;
+    top: -360px;
+}
+.slider .show{
+    display:block;
+}
+#contacto #section3 span{
+    display: block;
+}
+#contacto #section3 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    line-height: 50px;
+    padding-left: 4rem;
+}
+#contacto #section3 .container-fluid .row{
+    min-height: 240px;
+}
+
+li.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textobox {
+    font-size: 7rem;
+    font-weight: bold;
+    position: absolute;
+    top: 295px;
+    left: 22rem;
+    z-index: 100;
+    line-height: 95px;
+}
+
+#nosotros .contenido {
+    color: #008B84;
+    font-weight: 500;
+}
+#section2 p {
+    font-size: 1.7rem;
+    line-height: 40px;
+}
+p.texto-resaltado {
+    color: #008B84;
+    font-size: 2.5rem !important;
+    line-height: 46px !important;
+}
+.contenido.texto-white.op1 {
+    padding-top: 221px;
+}
+#section1 .contenido {
+    font-size: 1.5rem;
+}
+
+.listado {
+    padding-right: 12rem;
+    font-size: 1.7rem;
+}
+
+.listado p {
+    margin-left: 3.5rem;
+}
+
+.listado li {
+    border-bottom: 1px solid #B7BABE;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+    padding-left: 17px;
+}
+
+.titular {
+    padding: 16rem 4rem 15rem !important;
+}
+
+.texto-law hr {
+    color: white;
+    background: white;
+    width: 100%;
+}
+.texto-law b {
+    font-weight: 600;
+}
+
+button.btn.btn-arrow-left.slick-arrow {
+    background: #706F6F;
+    color: white;
+    border-radius: 50%;
+    padding: 12px 14px 8px 14px;
+}
+button.btn.btn-arrow-right.slick-arrow {
+    background: #706F6F;
+    color: white;
+    border-radius: 50%;
+    padding: 12px 14px 8px 14px;
+}
+
+.btn-arrow-left {
+    position: absolute;
+    right: 10rem;
+    top: -80px;
+}
+.btn-arrow-right {
+    position: absolute;
+    right: 6.5rem;
+    top: -80px;
+}
+
+.texto-sugerencia {
+    font-size: 2.5rem;
+    padding-left: 8rem;
+    padding-bottom: 4rem;
+    line-height: 2.7rem;
+}
+.slider:focus{
+        outline: none !important;
+}
+
+.slideexito.slick-initialized.slick-slider{
+    padding-top: 100px;
+}
+.slider{
+    position: relative;
+}
+.numerico{
+    position: absolute;
+    color: #03C7C7;
+    font-size: 6rem;
+    font-weight: bold;
+    left: 50%;
+    top: -29px;
+    z-index: 100;
+    margin-left: -25px;
+}
+#contacto section#section4 {
+    position: relative;
+}
+
+.boxaddress {
+    position: absolute;
+    background: white;
+    width: 44%;
+    padding: 35px 166px 80px 35px;
+    top: -13%;
+    margin-left: 5rem;
+    font-size: 2rem;
+    line-height: 40px;
+}
