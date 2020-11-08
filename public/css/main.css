@@ -963,13 +963,13 @@ a.circulo.shaes {
         font-weight: lighter !important;
     }
     .titulo2 {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         line-height: 47px;
         font-family: HelveticaNeueLTPro-Md;
     }
     .bloque {
-        padding: 20px 40px 0 20px;
+        padding: 20px 20px 0 20px;
     }
     .back-grey .contenido {
         padding-top: 60px;
@@ -1280,5 +1280,8 @@ a.circulo.shaes {
         padding: 20px 0px 193px 0px;
         font-size: 1.3rem;
         font-weight: lighter !important;
+    }
+    .titulo-blq {
+        text-align: center;
     }
  }
