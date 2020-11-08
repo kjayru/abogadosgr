@@ -1261,4 +1261,14 @@ a.circulo.shaes {
         z-index: 2;
         position: relative;
     }
+    .slider .card-body .cuadro{
+        position: absolute;
+        z-index: 1;
+        padding: 30px 16px;
+        background: #6B9CA3;
+        color: white;
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
  }
