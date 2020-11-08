@@ -1272,6 +1272,7 @@ a.circulo.shaes {
         top: 0;
     }
     #nosotros .p-0 .row {
-         margin: auto !important;
+        margin-right: -15px;
+        margin-left: -15px;
     }
  }
