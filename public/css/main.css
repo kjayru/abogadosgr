@@ -1284,4 +1284,8 @@ a.circulo.shaes {
     .titulo-blq {
         text-align: center;
     }
+    .text-left {
+        text-align: center !important;
+        padding-bottom: 2rem;
+    }
  }
