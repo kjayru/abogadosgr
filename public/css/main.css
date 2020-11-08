@@ -1288,4 +1288,8 @@ a.circulo.shaes {
         text-align: center !important;
         padding-bottom: 2rem;
     }
+    nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-transparent {
+        background: white !important;
+        padding-bottom: 34px;
+    }
  }
