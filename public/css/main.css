@@ -1293,4 +1293,9 @@ a.circulo.shaes {
         background: white !important;
 
     }
+    .btn-link:hover {
+        color: #1C2633;
+        text-decoration: none !important;
+        outline:none;
+    }
  }
