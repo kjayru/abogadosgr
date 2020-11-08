@@ -949,7 +949,7 @@ a.circulo.shaes {
         background-size: cover;
     }
     .texto-pad1 {
-        font-size: 25px;
+        font-size: 1.3rem;
         padding: 28px;
         text-align: justify;
     }
@@ -1274,5 +1274,10 @@ a.circulo.shaes {
     #nosotros .p-0 .row {
         margin-right: -15px !important;
         margin-left: -15px !important;
+    }
+    .nosotros-content .contenido {
+        padding: 20px 0px 193px 0px;
+        font-size: 1.3rem;
+        font-weight: lighter !important;
     }
  }
