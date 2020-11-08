@@ -841,7 +841,10 @@ a.circulo.shaes {
     z-index: 3;
 }
 
-
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0;
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
     .tituloverde {
