@@ -1001,11 +1001,12 @@ a.circulo.shaes {
     }
     h1.titulo-seccion {
         font-size: 3.4rem;
-        line-height: 64px;
+        line-height: 50px;
         font-weight: 700;
         font-family: HelveticaNeueLTPro-Md;
-        margin-top: 85px;
-        margin-bottom: 85px;
+        margin-top: 138px;
+        margin-bottom: 64px;
+        text-align: center;
     }
     #accordion .card-header {
         background-color: transparent;
