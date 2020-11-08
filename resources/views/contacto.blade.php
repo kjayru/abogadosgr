@@ -63,12 +63,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 text-left d-flex align-items-start">
-                    <span>ESCRÍBENOS<span>
-                    info@gcr.com.mx
+                   <p> <span>ESCRÍBENOS</span>
+                    info@gcr.com.mx</p>
                 </div>
                 <div class="col-md-6 text-left d-flex align-items-end">
-                    <span>LLÁMANOS<span>
-                    +52 81 8192-0132 / +52 81 8192-0133
+                    <p><span>LLÁMANOS</span>
+                    +52 81 8192-0132 / +52 81 8192-0133</p>
                 </div>
             </div>
         </div>

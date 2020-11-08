@@ -845,34 +845,26 @@ a.circulo.shaes {
     outline: 0;
     box-shadow: none !important;
 }
-/* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
-    .tituloverde {
-        font-weight: bold;
-        font-size: 5rem;
-        line-height: 65px;
-    }
-    .titulo {
-        font-size: 4rem;
-        font-family: 'helvetica';
-        margin-bottom: 65px;
-        line-height: 60px;
-    }
- }
+
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
 
     .tituloverde {
         font-weight: bold;
-        font-size: 4rem;
-        line-height: 65px;
+        font-size: 2.5rem;
+        line-height: 40px;
+        padding-top: 200px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-left: 0 !important;
     }
     .titulo {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-family: 'helvetica';
         margin-bottom: 65px;
-        line-height: 60px;
+        line-height: 40px;
     }
     .texto-1 {
         width: 330px;
@@ -889,13 +881,15 @@ a.circulo.shaes {
         height: auto;
     }
     .textobox {
-        font-size: 4rem;
+        font-size: 2.5rem;
         position: absolute;
-        top: 290px;
-        left: 8rem;
+        top: 70%;
+        left: 0;
         z-index: 100;
-        line-height: 95px;
+        line-height: 40px;
         font-family: HelveticaNeueLTPro-Md;
+        text-align: center;
+        width: 100%;
     }
 
     .imarco {
@@ -903,11 +897,12 @@ a.circulo.shaes {
         display: block;
     }
     .casos-texto {
-        font-size: 4rem;
-        line-height: 61px;
+        font-size: 3rem;
+        line-height: 45px;
         padding-top: 57px;
         font-family: HelveticaNeueLTPro-Md;
     }
+
     .pad-right {
         padding-right: 35px;
     }
@@ -923,7 +918,7 @@ a.circulo.shaes {
     .blq-casos {
         background-color: #1C2633;
         color: white;
-        padding: 15px 0 1.5rem 2rem;
+        padding: 15px 0 2rem 1rem;
     }
     #section1 .lienzo {
         height: 100vh !important;
@@ -1003,7 +998,7 @@ a.circulo.shaes {
         z-index: 1000;
     }
     h1.titulo-seccion {
-        font-size: 3.4rem;
+        font-size: 3rem;
         line-height: 50px;
         font-weight: 700;
         font-family: HelveticaNeueLTPro-Md;
@@ -1133,7 +1128,7 @@ a.circulo.shaes {
         width: 180px;
         height: 180px;
         font-size: 1.5rem;
-        line-height: 34px;
+        line-height: 25px;
         position: absolute;
         padding-top: 50px;
         padding-left: 32px;
@@ -1214,10 +1209,10 @@ a.circulo.shaes {
     }
 
     #contacto #section3 {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         padding-top: 2rem;
         padding-bottom: 1rem;
-        line-height: 37px;
+        line-height: 35px;
         padding-left: 0rem;
     }
     .boxaddress {
@@ -1227,7 +1222,7 @@ a.circulo.shaes {
         padding: 35px 30px 35px 35px;
         top: 6%;
         margin-left: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 30px;
     }
     #contacto section#section4 {
@@ -1301,4 +1296,199 @@ a.circulo.shaes {
         text-decoration: none !important;
         outline:none;
     }
+    #contacto #section3 span {
+        display: block;
+        text-align: left;
+    }
+    .footer .text-left {
+        text-align: center !important;
+    }
+    .slideexito.slick-initialized.slick-slider {
+        padding-top: 20px;
+    }
+    .listado p {
+        margin-left: 1.5rem;
+    }
+    .ending:after {
+        content: "";
+        width: 239px;
+        height: 1px;
+        background-color: transparent;
+        position: absolute;
+        top: 84px;
+        left: 5px;
+        z-index: 1000;
+    }
+    .textobox {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 56%;
+        left: 0;
+        z-index: 100;
+        line-height: 40px;
+        font-family: HelveticaNeueLTPro-Md;
+        text-align: center;
+        width: 100%;
+    }
+    .ajedrez {
+        background: url(/images/Ajedrez02-recortado.jpg);
+        background-size: cover;
+        padding: 2rem 0 !important;
+    }
+    .botones {
+        border-radius: 23px;
+        color: white;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        font-size: 1rem;
+    }
+
+ }
+
+ /* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    .ajedrez {
+        background: url(/images/Ajedrez02-recortado.jpg);
+        background-size: cover;
+        padding: 2rem 0 !important;
+    }
+    .casos-texto {
+        font-size: 3rem;
+        line-height: 45px;
+        padding-top: 57px;
+        font-family: HelveticaNeueLTPro-Md;
+    }
+    .titulo {
+        font-size: 2.5rem;
+        font-family: 'helvetica';
+        margin-bottom: 65px;
+        line-height: 40px;
+    }
+    .pad-10 {
+        padding: 1rem!important;
+    }
+    h1.titulo-seccion {
+        font-size: 2.5rem;
+        line-height: 50px;
+        font-weight: 700;
+        font-family: HelveticaNeueLTPro-Md;
+        margin-top: 138px;
+        margin-bottom: 64px;
+        text-align: center;
+    }
+    .text-left {
+        text-align: left !important;
+        padding-bottom: 2rem;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-transparent {
+        background: white !important;
+
+    }
+    .btn-link:hover {
+        color: #1C2633;
+        text-decoration: none !important;
+        outline:none;
+    }
+    #contacto #section3 span {
+        display: block;
+        text-align: left;
+    }
+    #contacto #section3 {
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        line-height: 35px;
+        padding-left: 0rem;
+    }
+    .footer .text-left {
+        text-align: center !important;
+    }
+    .bloque-casos {
+        background: #03C7C7;
+        color: white;
+        padding: 35px 20px 30px 20px;
+        left: 1.4rem;
+        position: relative;
+        z-index: 101;
+        top: 45%;
+        width: 86%;
+        font-size: 1.3rem;
+        line-height: 30px;
+        margin-top: -85px;
+    }
+    .slideexito.slick-initialized.slick-slider {
+        padding-top: 10px;
+    }
+
+    .texto-sugerencia {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+        line-height: 1.7rem;
+        padding-top: 4rem;
+    }
+    .texto-law {
+        font-size: 1.2rem;
+        min-height: 600px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+    .listado {
+        padding-right: 0rem;
+        font-size: 1.2rem;
+        margin-left: -11px;
+        padding-left: 0px;
+    }
+    .listado p {
+        margin-left: 1rem;
+    }
+
+    .texto-1 {
+        width: 290px;
+        height: 290px;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 40px auto;
+        line-height: 28px;
+    }
+    .tituloverde {
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 40px;
+        padding-top: 200px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .textobox {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 70%;
+        left: 0;
+        z-index: 100;
+        line-height: 40px;
+        font-family: HelveticaNeueLTPro-Md;
+        text-align: center;
+        width: 100%;
+    }
+    .blq-casos {
+        background-color: #1C2633;
+        color: white;
+        padding: 15px 0 2rem 1rem;
+    }
+    .botones {
+        border-radius: 23px;
+        color: white;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+
  }
