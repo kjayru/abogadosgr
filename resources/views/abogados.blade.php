@@ -18,13 +18,13 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 lawyer1">
+                <div class="col-md-6 lawyer1 order-1">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Jaime Rodriguez Arévalo
                     </div>
                 </div>
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
                     <p>Originario de Monterrey, Nuevo León, México.  Recibido como Licenciado en Derecho por la Universidad de Monterrey el año de 1982.
                          Es el socio responsable que encabeza el área de derecho inmobiliario de García Corral y Rodríguez, cuenta con más de 25 años en
                          la práctica Inmobiliaria, ha realizado más de 30 transacciones entre tenedores de tierra y desarrolladores, además de haber
@@ -49,7 +49,7 @@
 
             <div class="row">
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
                     <p>Originario de Monterrey, Nuevo León, México. Recibido como Licenciado en Derecho por Universidad de Monterrey
                          el año de 1983. Cuenta con estudios en derechos internacional y comparado a través del programa conjunto de
                          la Universidad de San Diego, California y la École Supérieure des Sciences
@@ -73,7 +73,7 @@
                         <p>Inglés.</p>
                 </div>
 
-                <div class="col-md-6 lawyer2">
+                <div class="col-md-6 lawyer2 order-1">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Hernán García-Corral
@@ -84,13 +84,13 @@
 
 
             <div class="row">
-                <div class="col-md-6 lawyer3">
+                <div class="col-md-6 lawyer3 order-1">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Francisco Javier Tamez Ochoa
                     </div>
                 </div>
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
                     <p>Nacido en Monterrey, Nuevo León. Recibido como Licenciado en Derecho por la Facultad Libre de Derecho
                         de Monterrey el año 2000.</p>
 
@@ -109,7 +109,7 @@
 
             <div class="row">
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
                     <p>Nacido en Monterrey, Nuevo León. Recibido como Licenciado en Derecho por la
                         Facultad Libre de Derecho de Monterrey el año 2000.</p>
 
@@ -118,7 +118,7 @@
                        <p> Laboral, mercantil y amparo.</p>
                 </div>
 
-                <div class="col-md-6 lawyer4">
+                <div class="col-md-6 lawyer4 order-1">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Oziel Mireles Dávila

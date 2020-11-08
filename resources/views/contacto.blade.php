@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12">
 
-                        <H1 class="titulo-seccion texto-verde">Contactanos</H1>
+                        <H1 class="titulo-seccion texto-verde2">Contactanos</H1>
 
                 </div>
             </div>
@@ -73,11 +73,11 @@
             </div>
         </div>
     </section>
-    <section id="section4">
+    <section id="section4" class="backmapa">
         <div class="container-fluid"  class="p-0 m-0">
             <div class="row">
                 <div class="col-md-12 p-0 m-0">
-                    <img src="/images/mapa.png" class="img-fluid">
+                    <img src="/images/mapa.png" class="img-fluid d-none d-sm-block">
                 </div>
             </div>
         </div>

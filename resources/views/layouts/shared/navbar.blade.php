@@ -47,7 +47,7 @@
                     </div>
                   </li>
                 <li class="nav-item">
-                    <a class="btn btn-default btn-cotizar botones fondo-boton" href="#">{{__('navbar.cotizar')}}</a>
+                    <a class="btn btn-default btn-cotizar botones fondo-boton mayor" href="#">{{__('navbar.cotizar')}}</a>
                 </li>
             </ul>
 

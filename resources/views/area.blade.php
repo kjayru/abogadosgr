@@ -34,10 +34,10 @@
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Inmobiliario.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                        <p> La asesoría a desarrolladores y personas físicas en la adquisición y desarrollo de inmuebles incluye:</p>
                                         <ol>
 
@@ -85,10 +85,10 @@
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
                               <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Corporativo.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                      <ol>
                                        <li> Formación de sociedades mercantiles en México y en los Estados Unidos de América
                                            (Redacción de estatutos, acuerdos de intención y acuerdos entre accionistas).</li>
@@ -129,10 +129,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Agrario.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                       <ol>
                                          <li> Elaboración de estrategias de adquisición de bienes inmuebles rústicos a particulares y ejidos
                                        para fines agrícolas.</li>
@@ -168,10 +168,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Administrativo.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                         <ol>
                                       <li>Cabildeo y gestionamiento ante las autoridades administrativas (audiencias administrativas y apelaciones y empresas paraestatales).
                                       </li></ol>
@@ -197,10 +197,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Laboral.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                         <ol>
                                       <li>Consultoría laboral y de recursos humanos.</li>
 
@@ -241,10 +241,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Agrario.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                         <ol>
                                       <li>Asesoría y valoración sobre propiedad intelectual de empresas e individuos
                                           (Patentes, marcas, derechos de autor, diseños industriales).</li>
@@ -279,10 +279,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Bancario.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                         <ol>
                                       <li>Colocación de papel, acciones y obligaciones en mercados bursátiles.</li>
 
@@ -321,10 +321,10 @@
 
 
                                   <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 d-none d-sm-block">
                                         <img src="/images/Penal.jpg" class="img-fluid">
                                     </div>
-                                    <div class="col-md-9 listado">
+                                    <div class="col-md-9 listado col-12">
                                         <ol>
                                       <li>Litigio estratégico en relación con la comisión de delitos de cuello blanco (tráfico de influencias,
                                       fraude, lavado de dinero, cohecho, peculado, malversación de fondos económicos, etc.).</li>

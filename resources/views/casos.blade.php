@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
 
-                        <H1 class="titulo-seccion texto-verde2">Casos de Éxito</H1>
+                        <H1 class="titulo-seccion texto-verde2">Casos de <br>éxito</H1>
 
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div class="figure">
                         <img src="/images/Imagen-casos.jpg"  class="img-fluid">
                     </div>

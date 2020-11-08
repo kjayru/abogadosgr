@@ -6,7 +6,7 @@
 <section id="section1" class="relativo">
     <div class="container-fluid p-0 lienzo">
         <div class="row justify-content-center">
-            <div class="col-md-7">
+            <div class="col-md-7 col-12">
                 <div class="logo">
                     <img src="/images/Logo.png" class="img-fluid">
 
@@ -14,19 +14,51 @@
             </div>
         </div>
         <div class="bg1 bg-montain"></div>
+        <a href="#" class="circulo shaes"><i class="fas fa-arrow-down"></i></a>
     </div>
 
     <div class="container-fluid p-0  lienzo bg2">
 
         <div class="row justify-content-end text-center pt-5">
-            <div class="col-md-6">
-                <div class="texto-1 texto-verde bg-circular">
-                    Profesionales expertos en la
-                práctica jurídica con más de<br>
-                <strong>25 años de experiencia.</strong>
-                </div>
+            <div class="col-md-6 col-12">
+               <div class="slidesec1">
 
-                <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                    <div class="slide">
+                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                        <p>    Profesionales expertos en la
+                        práctica jurídica con más de<br>
+                        <strong>25 años de experiencia.</strong>
+                        </p>
+                        </div>
+
+                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                    </div>
+
+                    <div class="slide">
+                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                           <p> Somos un despacho de
+                            abogados con éxitos
+                            nacionales e
+                            internacionales.</p>
+                        </div>
+
+                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                    </div>
+
+                    <div class="slide">
+                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                            <p>Especialistas que inspiran
+                            confianza brindando
+                            servicios jurídicos en las
+                            áreas de derecho mercantil,
+                            corporativo, bursátil,
+                            inmobiliario, laboral y
+                            administrativo.</p>
+                        </div>
+
+                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                    </div>
+               </div>
             </div>
         </div>
     </div>
@@ -43,12 +75,12 @@
                                 <div class="tituloverde texto-verde flotante">
                                     Nuestros <br>Abogados
                                 </div>
-                                <div class="col-md-4 p0 m0" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
+                                <div class="col-md-4 p0 m0 col-6" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0" style="background:url(/images/Paisaje-Monterrey-Abogados-Recortado.jpg) no-repeat center center; background-size:cover;">
+                                <div class="col-md-8 p0 m0 col-6 " style="background:url(/images/Paisaje-Monterrey-Abogados-Recortado.jpg) no-repeat center center; background-size:cover;">
 
                                 </div>
                             </div>
@@ -56,42 +88,42 @@
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
+                                <div class="col-md-4 p0 m0 d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
 
                                        <div class="textobox texto-rojo">Hernan</div>
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0" style="background:url(/images/Hernan.jpg) no-repeat center center; background-size:cover;">
-
+                                <div class="col-md-8 p0 m0 col-12 imarco" style="background:url(/images/Hernan.jpg) no-repeat center center; background-size:cover;">
+                                    <div class="textobox texto-rojo d-block d-sm-none">Hernan</div>
                                 </div>
                             </div>
                         </div>
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4 p0 m0  d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
                                     <div class="marco">
 
                                         <div class="textobox texto-azul">Jaime</div>
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0" style="background:url(/images/Jaime.jpg) no-repeat center center; background-size:cover;">
-
+                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/Jaime.jpg) no-repeat center center; background-size:cover;">
+                                    <div class="textobox texto-rojo d-block d-sm-none">Jaime</div>
                                 </div>
                             </div>
                         </div>
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4 p0 m0 d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
                                     <div class="marco">
                                         <div class="textobox texto-marron text-center">Francisco<br> Javier</div>
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0" style="background:url(/images/FcoJavier-recortado.jpg) no-repeat center center; background-size:cover;">
-
+                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/FcoJavier-recortado.jpg) no-repeat center center; background-size:cover;">
+                                    <div class="textobox texto-rojo d-block d-sm-none">Francisco Javier</div>
                                 </div>
                             </div>
                         </div>
@@ -99,14 +131,14 @@
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4 p0 m0 d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
                                     <div class="marco">
                                         <div class="textobox texto-azul">Oziel</div>
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0" style="background:url(/images/Oziel-representacion.jpg) no-repeat center center; background-size:cover;">
-
+                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/Oziel-representacion.jpg) no-repeat center center; background-size:cover;">
+                                    <div class="textobox texto-rojo d-block d-sm-none">Oziel</div>
                                 </div>
                             </div>
                         </div>
@@ -126,27 +158,45 @@
                 </div>
 
         </div>
-        <div class="row">
+        <div class="row d-none d-sm-block">
            <div class="col-md-12">
 
-                <div class="d-flex justify-content-center">
-                    <div class="p-2 radiopress topradio"><picture><img src="/images/Servicio-Corporativo.png" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Inmobiliario.png" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Agrario.png" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Administrativo.png" ></picture></div>
+                <div class="d-flex justify-content-center ">
+                    <div class="p-2 radiopress topradio"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
 
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Laboral.png" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-PropiedadIntelectual.png" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Bancario.png" ></picture></div>
-                    <div class="p-2 radiopress bottomradio"><picture><img src="/images/Servicio-Penal.png" ></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress bottomradio"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
 
                 </div>
+
+            </div>
            </div>
+        <div class="row d-block d-sm-none">
+
+
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
+
+
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
+
+
 
         </div>
+
         <div class="row justify-content-center">
             <div class="col-md-4 text-center p-5">
                 <a href="#" class="btn btn-default  botones fondo-boton">¡Cotiza ahora!</a>
@@ -158,8 +208,8 @@
     <div class="container-fluid p-0">
 
         <div class="row">
-            <div class="col-md-3 blq-casos">
-                <h2 class="texto-verde casos-texto">Casos de exito</h2>
+            <div class="col-md-4 blq-casos col-12">
+                <h2 class="casos-texto texto-verde2">Casos de exito</h2>
                 <p>
                     Los servicios profesionales son considerados esencialmente personales,
                     los cuales dependen de las habilidades y esfuerzo individual de aquellos
@@ -167,11 +217,11 @@
                      infraestructura, experiencia y conocimientos requeridos para manejar asuntos
                      de gran tamaño y calado.
                 </p>
-                <div class="text-center p-5">
+                <div class="text-left p-2">
                     <a href="#" class="btn btn-default  botones fondo-boton">Conoce nuestros casos de exito</a>
                 </div>
             </div>
-            <div class="col-md-9" style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
+            <div class="col-md-8 col-12 mbg" style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
 
             </div>
         </div>
@@ -218,7 +268,7 @@
 
     </div>
 </section>
-</section>
+
 
 </main>
 @endsection
