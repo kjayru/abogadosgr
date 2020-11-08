@@ -716,13 +716,13 @@ li.nav-item {
     font-weight: 500;
 }
 #section2 p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     line-height: 40px;
 }
 p.texto-resaltado {
     color: #008B84;
-    font-size: 2.5rem !important;
-    line-height: 46px !important;
+    font-size: 1.7rem !important;
+    line-height: 40px !important;
 }
 .contenido.texto-white.op1 {
     padding-top: 221px;
@@ -913,8 +913,8 @@ a.circulo.shaes {
     .pad-left {
         padding-left: 50px;
     }
-    .p-0 .row{
-        margin:0 !important;
+    .p-0 .row {
+        margin: 0 !important;
     }
     .blq-casos {
         background-color: #1C2633;
@@ -1270,5 +1270,8 @@ a.circulo.shaes {
         height: 100%;
         width: 100%;
         top: 0;
+    }
+    #nosotros .p-0 .row {
+         margin: auto !important;
     }
  }
