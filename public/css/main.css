@@ -843,7 +843,7 @@ a.circulo.shaes {
 
 .btn.focus, .btn:focus {
     outline: 0;
-    box-shadow: 0;
+    box-shadow: none !important;
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
