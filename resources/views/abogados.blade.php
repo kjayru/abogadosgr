@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
 
-                        <H1 class="titulo-seccion texto-verde2">Socios</H1>
+                        <H1 class="titulo-seccion texto-verde2">{{ __('abogados.texto1')}}</H1>
 
                 </div>
             </div>
@@ -18,62 +18,49 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 lawyer1 order-1">
+                <div class="col-md-6 lawyer1 order-1 order-sm-1">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Jaime Rodriguez Arévalo
                     </div>
                 </div>
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
-                    <p>Originario de Monterrey, Nuevo León, México.  Recibido como Licenciado en Derecho por la Universidad de Monterrey el año de 1982.
-                         Es el socio responsable que encabeza el área de derecho inmobiliario de García Corral y Rodríguez, cuenta con más de 25 años en
-                         la práctica Inmobiliaria, ha realizado más de 30 transacciones entre tenedores de tierra y desarrolladores, además de haber
-                         participado en más de 50 desarrollos Inmobiliarios en lo que respecta a la tramitología para la obtención de los permisos
-                         requeridos para su realización, ante las diversas dependencias hasta obtener la autorización de ventas.
-                    </p><p>
-
-                        Personalmente ha asesorado a desarrolladores en todo el proceso legal que implica la realización de un desarrollo Inmobiliario,
-                         desde la adquisición del inmueble, hasta la escrituración al tercer adquirente de alguna unidad de dicho desarrollo.
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-2">
+                    <p>
+                        {{ __('abogados.texto2')}}
                     </p>
                     <p>
-                        Algunas de sus cualidades son la innovación y la creatividad, buscando siempre la mejora en los instrumentos
-                        jurídicos del despacho, de tal forma que los desarrolladores se encuentren legalmente protegidos.
-                        Pocos despachos tienen la capacidad de manejar todo el proceso como lo maneja García Corral y Rodríguez.
+                        {{ __('abogados.texto3')}}
+                    </p>
+                    <p>
+                        {{ __('abogados.texto4')}}
                     </p>
                     <hr>
-                        <b>Áreas de práctica:</b>
-                        <p> Mercantil, corporativo, inmobiliario, agrario, administrativo, bancario, financiero, bursátil y amparo</p>
+                        <b>{{ __('abogados.texto5')}}</b>
+                        <p> {{ __('abogados.texto6')}}</p>
                 </div>
             </div>
 
 
             <div class="row">
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
-                    <p>Originario de Monterrey, Nuevo León, México. Recibido como Licenciado en Derecho por Universidad de Monterrey
-                         el año de 1983. Cuenta con estudios en derechos internacional y comparado a través del programa conjunto de
-                         la Universidad de San Diego, California y la École Supérieure des Sciences
-                         Economiques et Commerciales en Paris. Además, cuenta con un MBA por el Instituto
-                         Tecnológico y de Estudios Superiores de Monterrey, campus Monterrey, con especialización en
-                         la Universidad de Texas en Austin.
-                    </p><p>
-
-                        Se ha desempeñado como panelistas y asesor de diversos páneles del capítulo XIX del TLCAN (Ahora T-MEC).
-                        Es fundador y exdirector de la maestría de derecho comercial internacional en el Instituto Tecnológico y
-                         de Estudios Superiores de Monterrey, además de ser consejero mexicano de distintas firmas jurídicas en
-                         los Estados Unidos de América.
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
+                    <p>
+                        {{ __('abogados.texto7')}}
+                    </p>
+                    <p>
+                        {{ __('abogados.texto8')}}
                     </p>
                     <hr>
-                        <b>Áreas de Práctica:</b>
-                        <p> Mercantil, corporativo, dumping, negociaciones internacionales, litigio mercantil
-                             (nacional e internacional), propiedad intelectual (marcas, patentes, derechos de autor, franquicias),
-                             arbitraje y mediación.</p>
+                        <b>{{ __('abogados.texto5')}}</b>
+                        <p>
+                            {{ __('abogados.texto9')}}
+                        </p>
 
-                        <b>Idiomas:</b>
-                        <p>Inglés.</p>
+                        <b>{{ __('abogados.texto10')}}</b>
+                        <p>{{ __('abogados.texto11')}}</p>
                 </div>
 
-                <div class="col-md-6 lawyer2 order-1">
+                <div class="col-md-6 lawyer2 order-1 order-sm-2">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Hernán García-Corral
@@ -84,23 +71,22 @@
 
 
             <div class="row">
-                <div class="col-md-6 lawyer3 order-1">
+                <div class="col-md-6 lawyer3 order-1 order-sm-1">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Francisco Javier Tamez Ochoa
                     </div>
                 </div>
                 <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
-                    <p>Nacido en Monterrey, Nuevo León. Recibido como Licenciado en Derecho por la Facultad Libre de Derecho
-                        de Monterrey el año 2000.</p>
+                    <p>{{ __('abogados.texto12')}}</p>
 
                         <hr>
-                        <b>Áreas de práctica:</b>
-                        <p>Inmobiliario, amparo, litigio penal y contencioso administrativo.</p>
+                        <b>{{ __('abogados.texto5')}}</b>
+                        <p>{{ __('abogados.texto13')}}</p>
 
 
-                        <b>Idiomas:</b>
-                       <p> Inglés.</p>
+                        <b>{{ __('abogados.texto10')}}</b>
+                       <p> {{ __('abogados.texto11')}}</p>
                 </div>
             </div>
 
@@ -109,16 +95,15 @@
 
             <div class="row">
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
-                    <p>Nacido en Monterrey, Nuevo León. Recibido como Licenciado en Derecho por la
-                        Facultad Libre de Derecho de Monterrey el año 2000.</p>
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
+                    <p>{{ __('abogados.texto14')}}</p>
 
                         <hr>
-                        <b>Áreas de práctica:</b>
-                       <p> Laboral, mercantil y amparo.</p>
+                        <b>{{ __('abogados.texto5')}}</b>
+                       <p> {{ __('abogados.texto15')}}</p>
                 </div>
 
-                <div class="col-md-6 lawyer4 order-1">
+                <div class="col-md-6 lawyer4 order-1 order-sm-2">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Oziel Mireles Dávila

@@ -25,38 +25,27 @@
 
                     <div class="slide">
                         <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
-                        <p>    Profesionales expertos en la
-                        práctica jurídica con más de<br>
-                        <strong>25 años de experiencia.</strong>
+                        <p>   {!!__('inicio.texto1')!!}
                         </p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
 
                     <div class="slide">
                         <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
-                           <p> Somos un despacho de
-                            abogados con éxitos
-                            nacionales e
-                            internacionales.</p>
+                           <p> {!!__('inicio.texto2')!!}</p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
 
                     <div class="slide">
                         <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
-                            <p>Especialistas que inspiran
-                            confianza brindando
-                            servicios jurídicos en las
-                            áreas de derecho mercantil,
-                            corporativo, bursátil,
-                            inmobiliario, laboral y
-                            administrativo.</p>
+                            <p>{!!__('inicio.texto3')!!}</p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">Mas de nosotros</a>
+                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
                </div>
             </div>
@@ -73,7 +62,7 @@
                         <div>
                             <div class="row relativo">
                                 <div class="tituloverde texto-verde flotante">
-                                    Nuestros <br>Abogados
+                                   {!!__('inicio.texto4')!!}
                                 </div>
                                 <div class="col-md-4 p0 m0 col-6" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
@@ -153,7 +142,7 @@
         <div class="row">
                 <div class="col-md-12">
                     <div class="titulo text-center texto-gris">
-                        Áreas de especialidad
+                      {!!__('inicio.texto5')!!}
                     </div>
                 </div>
 
@@ -199,7 +188,7 @@
 
         <div class="row justify-content-center">
             <div class="col-md-4 text-center p-5">
-                <a href="#" class="btn btn-default  botones fondo-boton">¡Cotiza ahora!</a>
+                <a href="#" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
             </div>
         </div>
     </div>
@@ -209,16 +198,11 @@
 
         <div class="row">
             <div class="col-md-4 blq-casos col-12">
-                <h2 class="casos-texto texto-verde2">Casos de exito</h2>
-                <p>
-                    Los servicios profesionales son considerados esencialmente personales,
-                    los cuales dependen de las habilidades y esfuerzo individual de aquellos
-                    abogados que los provean. García-Corral y Rodríguez cuenta con los recursos,
-                     infraestructura, experiencia y conocimientos requeridos para manejar asuntos
-                     de gran tamaño y calado.
+                <h2 class="casos-texto texto-verde2">{{ __('inicio.texto8')}}</h2>
+                <p>{{ __('inicio.texto9')}}
                 </p>
                 <div class="text-left p-2">
-                    <a href="#" class="btn btn-default  botones fondo-boton">Conoce nuestros casos de exito</a>
+                    <a href="#" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto7')}}</a>
                 </div>
             </div>
             <div class="col-md-8 col-12 mbg" style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
@@ -234,28 +218,28 @@
         <div class="row">
 
             <div class="col-md-8 pad pad-left pad-bottom pad-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
-                <div class="titulo titulo-bold gris-oscuro">Contactanos</div>
+                <div class="titulo titulo-bold gris-oscuro">{{ __('inicio.texto10')}}</div>
 
                     <form action="" class="formgen">
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" placeholder="Email">
+                            <input type="email" class="form-control" name="email" placeholder="{{__('inicio.texto12')}}">
                         </div>
                         <div class="form-group">
-                            <input type="asunto" class="form-control" name="asunto" placeholder="Asunto">
+                            <input type="asunto" class="form-control" name="asunto" placeholder="{{__('inicio.texto13')}}">
                         </div>
                         <div class="form-group">
-                        <textarea class="form-control" placeholder="Escribe tu mensaje aqui"></textarea>
+                        <textarea class="form-control" placeholder="{{__('inicio.texto14')}}"></textarea>
                         </div>
                     <div class="form-group">
 
-                        <button type="submit" class="btn btn-default fondo-boton botones">Enviar</button>
+                        <button type="submit" class="btn btn-default fondo-boton botones">{{__('inicio.texto15')}}</button>
                         </div>
                     </form>
 
 
             </div>
             <div class="col-md-4 blq-contacto texto-white">
-                <h2 class="subtitulo text-upper">Direccion</h2>
+                <h2 class="subtitulo text-upper">{{ __('inicio.texto11')}}</h2>
                 <p>
                     Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
                 </p>

@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
 
-                        <H1 class="titulo-seccion texto-verde2">Nuestros <br>Servicios</H1>
+                        <H1 class="titulo-seccion texto-verde2">{!! __('areas.texto1')!!}</H1>
 
                 </div>
             </div>
@@ -26,7 +26,7 @@
                           <div class="card-header ascensor" id="headingOne">
                             <h5 class="mb-0">
                               <button class="btn btn-link asc1 radio" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Inmobiliario
+                                {{__('areas.texto2')}}
                               </button>
                             </h5>
                           </div>
@@ -38,34 +38,28 @@
                                         <img src="/images/Inmobiliario.jpg" class="img-fluid">
                                     </div>
                                     <div class="col-md-9 listado col-12">
-                                       <p> La asesoría a desarrolladores y personas físicas en la adquisición y desarrollo de inmuebles incluye:</p>
-                                        <ol>
+                                       <p> {{__('areas.texto10')}}</p>
 
-                                         <li> La realización de una opción a compra o precontrato, por la cual se cuente con un plazo para realizar un Due Diligence (Administrativo y Legal)
-                                              del inmueble a adquirir, con el propósito de que al realizar la transacción se cuente con todos los elementos legales y administrativos, para tomar
-                                              la decisión de adquirir el inmueble mediante el ejercicio de la opción.</li>
+                                       <ol>
+                                         <li> {{__('areas.texto11')}}</li>
 
-                                         <li> Asesoría para la estructuración y celebración del instrumento por el cual se haría la transmisión de la propiedad del inmueble correspondiente.</li>
+                                         <li> {{__('areas.texto12')}}</li>
 
-                                         <li> Instrumentación de coinversiones, entre propietarios de la tierra y desarrolladores, fideicomisos de administración y/o empresariales.</li>
+                                         <li>{{__('areas.texto13')}} </li>
 
-                                         <li> Asesoría en la tramitología para la obtención de los permisos, municipales, estatales o federales que se requieran, para obtener la autorización
-                                             del desarrollo inmobiliario que se pretende llevar a cabo.</li>
+                                         <li>{{__('areas.texto14')}} </li>
 
-                                         <li> Redacción de los formatos de precontratos u ofertas de compra que se celebren con los adquirentes de las unidades del desarrollo Inmobiliario a realizar,
-                                              entre el momento que empiece la preventa, hasta el momento en que se tenga la autorización de ventas.</li>
+                                         <li>{{__('areas.texto15')}} </li>
 
-                                         <li> Redacción de los formatos de los contratos privados a plazos o de contado que se celebren con los adquirentes de las unidades del desarrollo
-                                             Inmobiliario a realizar, al momento en que se tenga la autorización de ventas.</li>
+                                         <li>{{__('areas.texto16')}} </li>
 
-                                         <li> Redacción de los formatos de folios a firmar ante notario público en los que consten los actos jurídicos que se celebren con los adquirentes de
-                                             las unidades del desarrollo Inmobiliario a realizar.</li>
+                                         <li>{{__('areas.texto17')}} </li>
 
-                                         <li> Redacción de contratos de obra a celebrar con los contratistas para la realización de las obras de los desarrollos inmobiliarios.</li>
+                                         <li>{{__('areas.texto18')}} </li>
 
-                                         <li> Constitución de condominios horizontales o verticales, en caso que el desarrollo inmobiliario sea un condominio.</li>
+                                         <li>{{__('areas.texto19')}} </li>
 
-                                         <li> Asesoría en compras de terrenos, casas, departamentos, oficinas en forma individual por personas físicas o morales.</li>
+                                         <li>{{__('areas.texto20')}} </li>
                                         </ol>
                                     </div>
                                 </div>
@@ -78,7 +72,7 @@
                           <div class="card-header ascensor" id="headingTwo">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc2 radio" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Corporativo, Societario y Mercantil
+                                {{__('areas.texto3')}}
                               </button>
                             </h5>
                           </div>
@@ -90,22 +84,17 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                      <ol>
-                                       <li> Formación de sociedades mercantiles en México y en los Estados Unidos de América
-                                           (Redacción de estatutos, acuerdos de intención y acuerdos entre accionistas).</li>
+                                       <li> {{__('areas.texto21')}}</li>
 
-                                      <li>Operaciones de capitalización, operación, fusión, escisión, venta y due dilligence
-                                          de entidades mercantiles en general.</li>
+                                      <li>{{__('areas.texto22')}}</li>
 
-                                      <li>Negociación e implementación de coinversiones, alianzas estratégicas, fusiones, adquisiciones
-                                           y escisiones, reorganizaciones corporativas, integración post-adquisición, franquicias y redes
-                                            de distribución.</li>
+                                      <li>{{__('areas.texto23')}}</li>
 
-                                      <li>Redacción y asesoría de contratos mercantiles de acuerdo con la legislación mexicana y
-                                          norteamericana (Tomando en consideración los tratados comerciales que México ha suscrito).</li>
+                                      <li> {{__('areas.texto24')}}</li>
 
-                                      <li>Secretaría corporativa.</li>
+                                      <li>{{__('areas.texto25')}}</li>
 
-                                      <li>Mediación, litigio y arbitraje comercial (nacional e internacional).</li>
+                                      <li>{{__('areas.texto26')}}</li>
 
                                      </ol>
                                     </div>
@@ -120,7 +109,7 @@
                           <div class="card-header ascensor" id="headingThree">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc3 radio" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Agrario
+                                {{__('areas.texto4')}}
                               </button>
                             </h5>
                           </div>
@@ -134,14 +123,11 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                       <ol>
-                                         <li> Elaboración de estrategias de adquisición de bienes inmuebles rústicos a particulares y ejidos
-                                       para fines agrícolas.</li>
+                                         <li>  {{__('areas.texto27')}}</li>
 
-                                         <li> Constitución de sociedades de producción rural, asociaciones rurales de interés colectivo y otras entidades
-                                          jurídicas afines al ramo agrario.</li>
+                                         <li>  {{__('areas.texto28')}}</li>
 
-                                         <li> Creación de estrategias para la celebración de actos jurídicos con ejidos tales como préstamos, asociaciones,
-                                          sociedades con acciones de terrenos, arrendamientos, etc.</li>
+                                         <li>  {{__('areas.texto29')}}</li>
                                       </ol>
 
 
@@ -159,7 +145,7 @@
                           <div class="card-header ascensor" id="headingcuatro">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc4 radio" data-toggle="collapse" data-target="#collapsecuatro" aria-expanded="false" aria-controls="collapseThree">
-                                Administrativo
+                                {{__('areas.texto5')}}
                               </button>
                             </h5>
                           </div>
@@ -173,8 +159,8 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>Cabildeo y gestionamiento ante las autoridades administrativas (audiencias administrativas y apelaciones y empresas paraestatales).
-                                      </li></ol>
+                                            <li>{{__('areas.texto30')}}</li>
+                                        </ol>
                                     </div>
                                 </div>
 
@@ -188,7 +174,7 @@
                           <div class="card-header ascensor" id="headingcinco">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc5 radio" data-toggle="collapse" data-target="#collapsecinco" aria-expanded="false" aria-controls="collapseThree">
-                                Laboral
+                                {{__('areas.texto6')}}
                               </button>
                             </h5>
                           </div>
@@ -202,15 +188,15 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>Consultoría laboral y de recursos humanos.</li>
+                                      <li>{{__('areas.texto6')}}</li>
 
-                                      <li>Negociación de contratos individuales y colectivos de trabajo.</li>
+                                      <li>{{__('areas.texto7')}}</li>
 
-                                      <li>Recisión y terminación de relaciones laborales.</li>
+                                      <li>{{__('areas.texto8')}}</li>
 
-                                      <li>Litigio ante tribunales laborales, estatales y federales.</li>
+                                      <li>{{__('areas.texto9')}}</li>
 
-                                      <li>Atención a asuntos derivados de huelgas y paros laborales.</li>
+                                      <li>{{__('areas.texto10')}}</li>
 
                                         </ol>
                                     </div>
@@ -232,7 +218,7 @@
                           <div class="card-header ascensor" id="headingseis">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc6 radio" data-toggle="collapse" data-target="#collapseseis" aria-expanded="false" aria-controls="collapseThree">
-                                Propiedad Intelectual
+                                {{__('areas.texto7')}}
                               </button>
                             </h5>
                           </div>
@@ -246,12 +232,11 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>Asesoría y valoración sobre propiedad intelectual de empresas e individuos
-                                          (Patentes, marcas, derechos de autor, diseños industriales).</li>
+                                      <li>{{__('areas.texto36')}}</li>
 
-                                      <li>Adquisición, registro, protección y explotación de derechos de propiedad intelectual.</li>
+                                      <li>{{__('areas.texto37')}}</li>
 
-                                      <li>Litigio administrativo en relación con derechos propiedad intelectual.</li>
+                                      <li>{{__('areas.texto38')}}</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -270,7 +255,7 @@
                           <div class="card-header ascensor" id="headingsiete">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc7 radio" data-toggle="collapse" data-target="#collapsesiete" aria-expanded="false" aria-controls="collapsesiete">
-                                Bancario, Financiero y Bursátil
+                                {{__('areas.texto8')}}
                               </button>
                             </h5>
                           </div>
@@ -284,14 +269,13 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>Colocación de papel, acciones y obligaciones en mercados bursátiles.</li>
+                                      <li>  {{__('areas.texto39')}}</li>
 
-                                      <li>Negociación de instrumentos de garantía hipotecaria y apertura de líneas de crédito.</li>
+                                      <li>  {{__('areas.texto40')}}</li>
 
-                                      <li>Estructuración, manejo y administración de certificados de capital de desarrollo bajo
-                                           esquemas de llamadas de capital para la realización de desarrollos inmobiliarios.</li>
+                                      <li>  {{__('areas.texto41')}}</li>
 
-                                      <li>Representación de acreedores en procesos de quiebra y suspensión de pagos.</li>
+                                      <li>  {{__('areas.texto42')}}</li>
                                         </ol>
 
                                     </div>
@@ -312,7 +296,7 @@
                           <div class="card-header ascensor" id="headingocho">
                             <h5 class="mb-0 ">
                               <button class="btn btn-link  collapsed asc8 radio" data-toggle="collapse" data-target="#collapseocho" aria-expanded="false" aria-controls="collapseocho">
-                                Penal
+                                {{__('areas.texto9')}}
                               </button>
                             </h5>
                           </div>
@@ -326,11 +310,8 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>Litigio estratégico en relación con la comisión de delitos de cuello blanco (tráfico de influencias,
-                                      fraude, lavado de dinero, cohecho, peculado, malversación de fondos económicos, etc.).</li>
+                                            <li>{{__('areas.texto43')}}</li>
                                         </ol>
-
-
                                     </div>
                                 </div>
 
