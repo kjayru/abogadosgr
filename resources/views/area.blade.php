@@ -6,7 +6,7 @@
     <section id="section1" class="pad-10 fondo-gris2 titular">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="zoom-in">
 
                         <H1 class="titulo-seccion texto-verde2">{!! __('areas.texto1')!!}</H1>
 
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-12 p-0 m-0">
 
-                    <div id="accordion">
+                    <div id="accordion" data-aos="fade-up">
 
 
                         <div class="card">

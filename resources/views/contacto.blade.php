@@ -7,7 +7,7 @@
     <section id="section1" class="pad-10 bg-contacto">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="zoom-in">
 
                         <H1 class="titulo-seccion texto-verde2">{{__('contacto.texto1')}}</H1>
 
@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-12 p-5">
+                <div class="col-md-12 p-5" data-aos="fade-up">
                     <form action="" class="formgen">
 
                         <div class="form-row">
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section id="section3" class="fondo-verde2 texto-white">
+    <section id="section3" class="fondo-verde2 texto-white" data-aos="fade-up">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 text-left d-flex align-items-start">
@@ -73,7 +73,7 @@
             </div>
         </div>
     </section>
-    <section id="section4" class="backmapa">
+    <section id="section4" class="backmapa" data-aos="fade-up">
         <div class="container-fluid"  class="p-0 m-0">
             <div class="row">
                 <div class="col-md-12 p-0 m-0">
@@ -83,7 +83,7 @@
         </div>
         <div class="boxaddress">
             {{__('contacto.texto10')}}<br>
-Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
+            Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
         </div>
     </section>
 

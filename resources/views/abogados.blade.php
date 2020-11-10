@@ -6,7 +6,7 @@
     <section id="section1" class="pad-10 fondo-gris2 titular">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="zoom-in">
 
                         <H1 class="titulo-seccion texto-verde2">{{ __('abogados.texto1')}}</H1>
 
@@ -17,8 +17,8 @@
     <section id="lawyer">
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 lawyer1 order-1 order-sm-1">
+            <div class="row" data-aos="fade-right">
+                <div class="col-md-6 lawyer1 order-1 order-sm-1" >
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Jaime Rodriguez Arévalo
@@ -41,7 +41,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row" data-aos="fade-left">
 
                 <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
                     <p>
@@ -70,7 +70,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-md-6 lawyer3 order-1 order-sm-1">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
@@ -93,7 +93,7 @@
 
 
 
-            <div class="row">
+            <div class="row" data-aos="fade-left">
 
                 <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
                     <p>{{ __('abogados.texto14')}}</p>
