@@ -7,7 +7,7 @@
     <div class="container-fluid p-0 lienzo">
         <div class="row justify-content-center">
             <div class="col-md-7 col-12">
-                <div class="logo">
+                <div class="logo" data-aos="zoom-in">
                     <img src="/images/Logo.png" class="img-fluid">
 
                 </div>
@@ -21,7 +21,7 @@
 
         <div class="row justify-content-end text-center pt-5">
             <div class="col-md-6 col-12">
-               <div class="slidesec1">
+               <div class="slidesec1" data-aos="fade-right">
 
                     <div class="slide">
                         <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
@@ -52,9 +52,9 @@
         </div>
     </div>
 </section>
-<section id="section2" class="pt-0 pb-0 pl0 pr0">
+<section id="section2" class="pt-0 pb-0 pl0 pr0 " >
     <div class="container-fluid p-0">
-        <div class="row">
+        <div class="row" data-aos="fade-right">
             <div class="col-md-12 p0">
 
                     <div class="slideabogado">
@@ -141,7 +141,7 @@
     <div class="container">
         <div class="row">
                 <div class="col-md-12">
-                    <div class="titulo text-center texto-gris">
+                    <div class="titulo text-center texto-gris" >
                       {!!__('inicio.texto5')!!}
                     </div>
                 </div>
@@ -151,18 +151,18 @@
            <div class="col-md-12">
 
                 <div class="d-flex justify-content-center ">
-                    <div class="p-2 radiopress topradio"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress topradio" data-aos="zoom-in"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
 
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress bottomradio"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress bottomradio" data-aos="zoom-in"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
 
                 </div>
 
@@ -197,7 +197,7 @@
     <div class="container-fluid p-0">
 
         <div class="row">
-            <div class="col-md-4 blq-casos col-12">
+            <div class="col-md-4 blq-casos col-12" data-aos="fade-right">
                 <h2 class="casos-texto texto-verde2">{{ __('inicio.texto8')}}</h2>
                 <p>{{ __('inicio.texto9')}}
                 </p>
@@ -205,7 +205,7 @@
                     <a href="#" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto7')}}</a>
                 </div>
             </div>
-            <div class="col-md-8 col-12 mbg" style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
+            <div class="col-md-8 col-12 mbg"  style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
 
             </div>
         </div>
@@ -217,7 +217,7 @@
 
         <div class="row">
 
-            <div class="col-md-8 pad pad-left pad-bottom pad-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
+            <div class="col-md-8 pad pad-left pad-bottom pad-right" data-aos="fade-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
                 <div class="titulo titulo-bold gris-oscuro">{{ __('inicio.texto10')}}</div>
 
                     <form action="" class="formgen">
@@ -238,7 +238,7 @@
 
 
             </div>
-            <div class="col-md-4 blq-contacto texto-white">
+            <div class="col-md-4 blq-contacto texto-white" data-aos="fade-left">
                 <h2 class="subtitulo text-upper">{{ __('inicio.texto11')}}</h2>
                 <p>
                     Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
