@@ -86,7 +86,10 @@
     src: url('/fonts/HelveticaNeueLTPro-MdIt.otf');
 }
 
+.fixed-top {
 
+    background: rgba(250,250,250,0.7) !important;
+}
 .fondo-boton{
     background-color:#FD9C00;
 }
@@ -845,8 +848,17 @@ a.circulo.shaes {
     outline: 0;
     box-shadow: none !important;
 }
-
-
+li.nav-item.active {
+    position: relative;
+}
+.active:after {
+    content: "";
+    background: #008B84;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+}
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
 
@@ -1287,8 +1299,8 @@ a.circulo.shaes {
         text-align: center !important;
         padding-bottom: 2rem;
     }
-    nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-transparent {
-        background: white !important;
+    nav.navbar.navbar-expand-lg.navbar-light .bg-transparent {
+        background: transparent !important;
 
     }
     .btn-link:hover {
@@ -1386,10 +1398,8 @@ a.circulo.shaes {
         text-align: left !important;
         padding-bottom: 2rem;
     }
-    nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-transparent {
-        background: white !important;
 
-    }
+
     .btn-link:hover {
         color: #1C2633;
         text-decoration: none !important;
@@ -1494,5 +1504,6 @@ a.circulo.shaes {
         padding-top: 10px;
         font-size: 0.9rem;
     }
+
 
  }

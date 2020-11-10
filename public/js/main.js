@@ -93,3 +93,60 @@ $(window).on('scroll',function(){
         }
     );
 
+
+$(document).on('ready',function(){
+    var pathurl = window.location.pathname;
+
+    if(pathurl=='/es'){
+
+        $(".bar1 .nav-item:nth-child(1)").addClass("active");
+    }
+    if(pathurl=='/es/nosotros'){
+
+        $(".bar1 .nav-item:nth-child(2)").addClass("active");
+    }
+    if(pathurl=='/es/areas-de-practica'){
+
+        $(".bar1 .nav-item:nth-child(3)").addClass("active");
+    }
+    if(pathurl=='/es/abogados'){
+
+        $(".bar1 .nav-item:nth-child(4)").addClass("active");
+    }
+    if(pathurl=='/es/casos-de-exito'){
+
+        $(".bar1 .nav-item:nth-child(5)").addClass("active");
+    }
+    if(pathurl=='/es/contacto'){
+
+        $(".bar1 .nav-item:nth-child(7)").addClass("active");
+    }
+
+
+    if(pathurl=='/en'){
+
+        $(".bar1 .nav-item:nth-child(1)").addClass("active");
+    }
+    if(pathurl=='/en/about-us'){
+
+        $(".bar1 .nav-item:nth-child(2)").addClass("active");
+    }
+    if(pathurl=='/en/practice-areas'){
+
+        $(".bar1 .nav-item:nth-child(3)").addClass("active");
+    }
+    if(pathurl=='/en/lawyers'){
+
+        $(".bar1 .nav-item:nth-child(4)").addClass("active");
+    }
+    if(pathurl=='/en/success-stories'){
+
+        $(".bar1 .nav-item:nth-child(5)").addClass("active");
+    }
+    if(pathurl=='/en/contact'){
+
+        $(".bar1 .nav-item:nth-child(7)").addClass("active");
+    }
+
+
+});
