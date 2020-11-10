@@ -37,11 +37,15 @@
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      {{ Str::upper(app()->getLocale()) }}
+                      @if(Str::upper(app()->getLocale()) =="EN")
+                      <img src="/images/BanderaUSA.png" width="40">
+                      @else
+                      <img src="/images/BanderaMexico.png" width="40">
+                      @endif
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="/en">EN</a>
-                      <a class="dropdown-item" href="/es">ES</a>
+                      <a class="dropdown-item" href="/en"><img src="/images/BanderaUSA.png" width="40"> </a>
+                      <a class="dropdown-item" href="/es"><img src="/images/BanderaMexico.png" width="40"> </a>
 
 
                     </div>
