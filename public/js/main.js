@@ -149,4 +149,19 @@ $(document).on('ready',function(){
     }
 
 
+
+    $(".circulo").on('click',function(e){
+        e.preventDefault();
+
+
+       let stack1 = $(".bg2").position().top;
+
+
+       $("html, body").animate({ scrollTop: stack1+80 }, 600,"swing");
+
+
+
+    });
+
+
 });
