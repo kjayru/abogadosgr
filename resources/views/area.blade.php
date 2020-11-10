@@ -25,7 +25,7 @@
                         <div class="card">
                           <div class="card-header ascensor" id="headingOne">
                             <h5 class="mb-0">
-                              <button class="btn btn-link asc1 radio" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <button class="btn btn-link asc1 radio activo" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 {{__('areas.texto2')}}
                               </button>
                             </h5>

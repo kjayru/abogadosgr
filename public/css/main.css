@@ -568,6 +568,13 @@ h1.titulo-seccion {
     position: absolute;
     top: 30px;
     right: 0px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f063";
+    z-index: 2;
+    font-size: 19px;
+    color: #2f3240;
+    text-align: center;
+    padding-top: 6px;
 }
 
 #accordion .card {
@@ -859,6 +866,19 @@ li.nav-item.active {
     height: 2px;
     position: absolute;
     left: 0;
+}
+.activo:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f062";
+    position: absolute;
+    background: #008B84;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
