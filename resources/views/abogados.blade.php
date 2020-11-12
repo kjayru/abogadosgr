@@ -17,14 +17,14 @@
     <section id="lawyer">
 
         <div class="container-fluid">
-            <div class="row" data-aos="fade-right">
-                <div class="col-md-6 lawyer1 order-1 order-sm-1" >
+            <div class="row" >
+                <div class="col-md-6 lawyer1 order-1 order-sm-1 " data-aos="fade-right" >
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Jaime Rodriguez Arévalo
                     </div>
                 </div>
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-2">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-2" data-aos="fade-left">
                     <p>
                         {{ __('abogados.texto2')}}
                     </p>
@@ -41,9 +41,9 @@
             </div>
 
 
-            <div class="row" data-aos="fade-left">
+            <div class="row">
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1" data-aos="fade-right">
                     <p>
                         {{ __('abogados.texto7')}}
                     </p>
@@ -60,7 +60,7 @@
                         <p>{{ __('abogados.texto11')}}</p>
                 </div>
 
-                <div class="col-md-6 lawyer2 order-1 order-sm-2">
+                <div class="col-md-6 lawyer2 order-1 order-sm-2" data-aos="fade-left">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Hernán García-Corral
@@ -70,14 +70,14 @@
             </div>
 
 
-            <div class="row" data-aos="fade-right">
-                <div class="col-md-6 lawyer3 order-1 order-sm-1">
+            <div class="row" >
+                <div class="col-md-6 lawyer3 order-1 order-sm-1" data-aos="fade-right">
                     <div class="boxlaw bright">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Francisco Javier Tamez Ochoa
                     </div>
                 </div>
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2" data-aos="fade-left">
                     <p>{{ __('abogados.texto12')}}</p>
 
                         <hr>
@@ -93,9 +93,9 @@
 
 
 
-            <div class="row" data-aos="fade-left">
+            <div class="row" >
 
-                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1">
+                <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1" data-aos="fade-right">
                     <p>{{ __('abogados.texto14')}}</p>
 
                         <hr>
@@ -103,7 +103,7 @@
                        <p> {{ __('abogados.texto15')}}</p>
                 </div>
 
-                <div class="col-md-6 lawyer4 order-1 order-sm-2">
+                <div class="col-md-6 lawyer4 order-1 order-sm-2" data-aos="fade-left">
                     <div class="boxlaw bleft">
                         <span><img src="/images/Logo-Iniciales.png" width="40"></span>
                         Oziel Mireles Dávila

@@ -28,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section id="section2" class="p-0">
+    <section id="section2" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 bg-nosotros-2">
@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section id="section3" class="p-0 bg-nosotros-3">
+    <section id="section3" class="bg-nosotros-3">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" data-aos="fade-right">
@@ -56,8 +56,8 @@
 
                 </div>
             </div>
-           <div class="row justify-content-end texto-pad1 texto-white" data-aos="fade-left">
-               <div class="col-md-6">
+           <div class="row justify-content-end texto-pad1 texto-white" >
+               <div class="col-md-6" data-aos="fade-left">
                     <p>{{__('nosotros.texto7')}}
                     </p>
                     <p>
@@ -67,7 +67,7 @@
            </div>
         </div>
     </section>
-    <section id="section4" class="p-0">
+    <section id="section4" >
         <div class="container-fluid">
             <div class="row nosotros-content">
                 <div class="col-md-6 back-green-oscuro bloque" data-aos="fade-right">
@@ -95,17 +95,17 @@
             </div>
         </div>
     </section>
-    <section id="section5" class="p-0 bg-nosotros-4">
+    <section id="section5" class="bg-nosotros-4">
         <div class="container-fluid">
-            <div class="row" data-aos="fade-right">
-                <div class="col-md-12">
+            <div class="row" >
+                <div class="col-md-12" data-aos="fade-right">
 
                         <H1 class="titulo-alcance texto-verde2">{!! __('nosotros.texto15')!!}</H1>
 
                 </div>
             </div>
-           <div class="row justify-content-end texto-pad1 texto-grey" data-aos="fade-left">
-               <div class="col-md-6">
+           <div class="row justify-content-end texto-pad1 texto-grey" >
+               <div class="col-md-6" data-aos="fade-left">
                     <p>
                         {{__('nosotros.texto16')}}
                     </p>

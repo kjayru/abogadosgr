@@ -15,9 +15,9 @@
         </div>
     </section>
     <section>
-        <div class="container-fluid p-0 m-0">
+        <div class="container-fluid ">
             <div class="row">
-                <div class="col-md-12 p-0 m-0">
+                <div class="col-md-12 m-0">
 
                     <div id="accordion" data-aos="fade-up">
 
