@@ -4,7 +4,7 @@
 <main id="home">
 
 <section id="section1" class="relativo">
-    <div class="container-fluid p-0 lienzo">
+    <div class="container-fluid lienzo">
         <div class="row justify-content-center">
             <div class="col-md-7 col-12">
                 <div class="logo" data-aos="zoom-in">
@@ -17,7 +17,7 @@
         <a href="#" class="circulo shaes"><i class="fas fa-arrow-down"></i></a>
     </div>
 
-    <div class="container-fluid p-0  lienzo bg2">
+    <div class="container-fluid lienzo bg2">
 
         <div class="row justify-content-end text-center pt-5">
             <div class="col-md-6 col-12">
@@ -52,10 +52,10 @@
         </div>
     </div>
 </section>
-<section id="section2" class="pt-0 pb-0 pl0 pr0 " >
-    <div class="container-fluid p-0">
+<section id="section2" class=" corte" >
+    <div class="container-fluid ">
         <div class="row" data-aos="fade-right">
-            <div class="col-md-12 p0">
+            <div class="col-md-12">
 
                     <div class="slideabogado">
 
@@ -137,7 +137,7 @@
          </div>
     </div>
 </section>
-<section id="section3" class="p-5 lienzo ajedrez">
+<section id="section3" class="p-5 lienzo2 ajedrez">
     <div class="container">
         <div class="row">
                 <div class="col-md-12">
@@ -148,7 +148,7 @@
 
         </div>
         <div class="row d-none d-sm-block">
-           <div class="col-md-12">
+           <div class="col-md-12 dradiocir">
 
                 <div class="d-flex justify-content-center ">
                     <div class="p-2 radiopress topradio" data-aos="zoom-in"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
@@ -158,7 +158,7 @@
 
                 </div>
 
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center ">
                     <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
                     <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
                     <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
@@ -193,8 +193,8 @@
         </div>
     </div>
 </section>
-<section id="section4" class="p-0 ">
-    <div class="container-fluid p-0">
+<section id="section4" class="">
+    <div class="container-fluid">
 
         <div class="row">
             <div class="col-md-4 blq-casos col-12" data-aos="fade-right">
@@ -212,8 +212,8 @@
 
     </div>
 </section>
-<section id="section5"  class="p-0 ">
-    <div class="container-fluid p-0">
+<section id="section5"  class="">
+    <div class="container-fluid ">
 
         <div class="row">
 
