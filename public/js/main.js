@@ -1,6 +1,6 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     AOS.init({ disable: 'mobile', delay: 0, once: true, });
-    $(document.body).on('touchmove', onScroll);
+    /*$(document.body).on('touchmove', onScroll);
     $(window).on('scroll', onScroll);
     function onScroll(){
         console.log($(this).scrollTop());
@@ -13,7 +13,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
             $('body').css('padding-top', '0');
           }
-    }
+    }*/
 }else{
 
     AOS.init({
@@ -26,7 +26,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
 }
 
-$(window).on('scroll',function(){
+/*$(window).on('scroll',function(){
 
     if ($(this).scrollTop() > 40) {
        $('header').addClass("fixed-top");
@@ -37,7 +37,7 @@ $(window).on('scroll',function(){
 
        $('body').css('padding-top', '0');
      }
- });
+ });*/
 
     $('.slideabogado').slick({
         dots: true,
@@ -74,14 +74,16 @@ $(window).on('scroll',function(){
     });
 
     $(".slidesec1").slick({
-        dots: true,
+        dots: false,
         arrows:false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        fade: true,
+        cssEase: 'linear'
     });
 
     $(".slider .card-header").hover(
@@ -153,7 +155,7 @@ $(document).on('ready',function(){
     $(".circulo").on('click',function(e){
         e.preventDefault();
        let stack1 = $(".bg2").position().top;
-       $("html, body").animate({ scrollTop: stack1+80 }, 600,"swing");
+       $("html, body").animate({ scrollTop: stack1 }, 600,"swing");
     });
 
 

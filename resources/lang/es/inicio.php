@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "mas"=>"Mas de nosotros",
+    "mas"=>"Más de nosotros",
     "texto1" => "Profesionales expertos en la  práctica jurídica con más de<br> <strong>25 años de experiencia.</strong>",
     "texto2" => "Somos un despacho de  abogados con éxitos nacionales e internacionales.",
     "texto3" => "Especialistas que inspiran confianza brindando  servicios jurídicos en las  áreas de derecho mercantil, corporativo, bursátil, inmobiliario, laboral y  administrativo.",

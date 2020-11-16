@@ -119,7 +119,7 @@ body{
 }
 
 .lienzo {
-    height: calc(100vh - 70px);
+    height: 100vh;
 }
 .lienzo2 {
     height: 100vh;
@@ -176,10 +176,9 @@ a.nav-link {
     background-size: cover;
 }
 
-
 .bg1 {
     position: absolute;
-    height: 100vh;
+    height: calc(100vh - 70px);
     width: 100%;
     top: 0;
     opacity: 0.7;
@@ -191,9 +190,11 @@ a.nav-link {
 }
 
 .logo {
-    padding-top: 30%;
+    padding-top: 50%;
     z-index: 2;
     position: relative;
+    text-align: center;
+    margin-top: -15%;
 }
 .botones {
     border-radius: 23px;
@@ -235,7 +236,8 @@ a.nav-link {
 }
 
 .marco {
-    height: calc(100vh - 90px);
+    /*height: calc(100vh - 90px);*/
+    height: 100vh;
     display: block;
 }
 .relativo{
@@ -249,7 +251,7 @@ a.nav-link {
     margin-top: 7%;
 }
 .ajedrez{
-    background: url('/images/Ajedrez02-recortado.jpg');
+    background: url('/images/Ajedrez02-recortado.jpg') no-repeat center center;
     background-size: cover;
 }
 .radiopress{
@@ -259,19 +261,19 @@ a.nav-link {
 .radiopress picture {
     padding: 50px 50px;
     display: block;
-    width: 200px;
+    width: 237px;
     text-align: center;
     height: 200px;
 }
 .radiopress:after {
     content: "";
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     position: absolute;
-    border: 1px solid green;
+    border: 1px solid #008B84;
     border-radius: 50%;
     top: -21px;
-    left: -15px;
+    left: -13px;
 }
 .blq-casos{
     background-color: #1C2633;
@@ -719,13 +721,13 @@ li.nav-item {
 }
 .textobox {
     font-size: 7rem;
-
     position: absolute;
-    top: 295px;
+    top: 50%;
     left: 22rem;
     z-index: 100;
     line-height: 95px;
     font-family: HelveticaNeueLTPro-Md;
+    margin-top: -3.5rem;
 }
 
 #nosotros .contenido {
@@ -889,9 +891,17 @@ li.nav-item.active {
 
 .dradiocir {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
-
+.radiopress p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    top: -43px;
+    position: relative;
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {

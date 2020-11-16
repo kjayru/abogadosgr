@@ -24,28 +24,28 @@
                <div class="slidesec1" data-aos="fade-right">
 
                     <div class="slide">
-                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                        <div class="texto-1 texto-gris bg-circular d-flex align-items-center ">
                         <p>   {!!__('inicio.texto1')!!}
                         </p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.nosotros')}}" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
 
                     <div class="slide">
-                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                        <div class="texto-1 texto-gris bg-circular d-flex align-items-center ">
                            <p> {!!__('inicio.texto2')!!}</p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.nosotros')}}" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
 
                     <div class="slide">
-                        <div class="texto-1 texto-verde bg-circular d-flex align-items-center ">
+                        <div class="texto-1 texto-gris bg-circular d-flex align-items-center ">
                             <p>{!!__('inicio.texto3')!!}</p>
                         </div>
 
-                        <a href="#" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.nosotros')}}" class="btn btn-default  botones fondo-boton">{{__('inicio.mas')}}</a>
                     </div>
                </div>
             </div>
@@ -80,11 +80,11 @@
                                 <div class="col-md-4 p0 m0 d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
 
-                                       <div class="textobox texto-rojo">Hernan</div>
+                                       <div class="textobox texto-rojo">Hernán</div>
                                     </div>
                                 </div>
                                 <div class="col-md-8 p0 m0 col-12 imarco" style="background:url(/images/Hernan.jpg) no-repeat center center; background-size:cover;">
-                                    <div class="textobox texto-rojo d-block d-sm-none">Hernan</div>
+                                    <div class="textobox texto-rojo d-block d-sm-none">Hernán</div>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
          </div>
     </div>
 </section>
-<section id="section3" class="p-5 lienzo2 ajedrez">
+<section id="section3" class="p-5  ajedrez">
     <div class="container">
         <div class="row">
                 <div class="col-md-12">
@@ -151,18 +151,60 @@
            <div class="col-md-12 dradiocir">
 
                 <div class="d-flex justify-content-center ">
-                    <div class="p-2 radiopress topradio" data-aos="zoom-in"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress topradio" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Corporativo.png" class="img-fluid" >
+                        </picture>
+                        <p>Corporativo,<br> Societario y Mercantil</p>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Inmobiliario.png"  class="img-fluid">
+                        </picture>
+                        <p>Inmobiliario</p>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Agrario.png"  class="img-fluid">
+                        </picture>
+                        <p>Agrario</p>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Administrativo.png"  class="img-fluid">
+                        </picture>
+                        <p>Administrativo</p>
+                    </div>
 
                 </div>
 
                 <div class="d-flex justify-content-center ">
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress" data-aos="zoom-in"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress bottomradio" data-aos="zoom-in"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Laboral.png" class="img-fluid" >
+                        </picture>
+                        <p>Laboral</p>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid">
+                        </picture>
+                        <p>Propiedad <br>Intelectual</p>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Bancario.png"  class="img-fluid">
+                        </picture>
+                        <p>Bancario,<br>
+                            Financiero y <br>
+                            Bursátil</p>
+                    </div>
+                    <div class="p-2 radiopress bottomradio" data-aos="zoom-in">
+                        <picture>
+                            <img src="/images/Servicio-Penal.png"  class="img-fluid">
+                        </picture>
+                        <p>Penal</p>
+                    </div>
 
                 </div>
 
@@ -171,16 +213,42 @@
         <div class="row d-block d-sm-none">
 
 
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture>
+                        <p>Corporativo,<br> Societario y Mercantil</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture>
+                        <p>Inmobiliario</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture>
+                        <p>Agrario</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture>
+                        <p>Administrativo</p>
+                    </div>
 
 
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture></div>
-                    <div class="p-2 radiopress col"><picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture></div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture>
+                        <p>Laboral</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture>
+                        <p>Propiedad <br>Intelectual</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture>
+                        <p>Bancario,<br>
+                            Financiero y <br>
+                            Bursátil</p>
+                    </div>
+                    <div class="p-2 radiopress col">
+                        <picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture>
+                        <p>Penal</p>
+                    </div>
 
 
 
