@@ -12,7 +12,7 @@ return [
     "texto7"=>"The Professionals that work with us have capacity to understand our client´s cases, providing accurate counseling. This is achieved by means of personalized attention, being accessible and keeping our clients up to date of their cases. ",
     "texto8"=>"At the same time, we seek to avoid or reduce unnecessary litigation expenses and additional counseling, through the recommendation of alternative dispute resolution techniques.",
     "texto9"=>"Vision",
-    "texto10"=>"we seek to continue providing the best professional services, always in accordance with the applicable legal framework. ",
+    "texto10"=>"We seek to continue providing the best professional services, always in accordance with the applicable legal framework. ",
     "texto11"=>"We wish to attract new clients, who may further recommend us and who can trust that this law office will provide them accurate legal assistance.",
     "texto12"=>"Counseling in <br> Mexico",
     "texto13"=>"In our country, we have stablished a broad network of professionals that have earned our trust, whom are located in Mexico City, Guadalajara, Querétaro, among others. ",

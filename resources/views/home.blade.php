@@ -256,24 +256,24 @@
 
         <div class="row justify-content-center">
             <div class="col-md-4 text-center p-5">
-                <a href="#" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
             </div>
         </div>
     </div>
 </section>
-<section id="section4" class="">
+<section id="section4">
     <div class="container-fluid">
 
         <div class="row">
             <div class="col-md-4 blq-casos col-12" data-aos="fade-right">
                 <h2 class="casos-texto texto-verde2">{{ __('inicio.texto8')}}</h2>
-                <p>{{ __('inicio.texto9')}}
+                <p>{!! __('inicio.texto9') !!}
                 </p>
                 <div class="text-left p-2">
-                    <a href="#" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto7')}}</a>
+                    <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.casos')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto7')}}</a>
                 </div>
             </div>
-            <div class="col-md-8 col-12 mbg"  style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center center; background-size:cover;">
+            <div class="col-md-8 col-12 mbg"  style="background:url(/images/Casos-Exito-Home.jpg) no-repeat center top; background-size:cover;">
 
             </div>
         </div>
@@ -286,7 +286,7 @@
         <div class="row">
 
             <div class="col-md-8 pad pad-left pad-bottom pad-right" data-aos="fade-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
-                <div class="titulo titulo-bold gris-oscuro">{{ __('inicio.texto10')}}</div>
+                <div class="titulo titulo-bold texto-gris">{{ __('inicio.texto10')}}</div>
 
                     <form action="" class="formgen">
                         <div class="form-group">
@@ -312,9 +312,8 @@
                     Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
                 </p>
                 <p>
-                    info@gcr.com.mx
-                </p>
-                <p>+52 81 8192-0132 / +52 81 8192-0133</p>
+                    <strong>info@gcr.com.mx</strong><br>
+                <strong>+52 81 8192-0132 / +52 81 8192-0133</strong></p>
             </div>
         </div>
 

@@ -25,13 +25,13 @@
                         <div class="card">
                           <div class="card-header ascensor" id="headingOne">
                             <h5 class="mb-0">
-                              <button class="btn btn-link asc1 radio activo" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <button class="btn btn-link asc1 radio " data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 {{__('areas.texto2')}}
                               </button>
                             </h5>
                           </div>
 
-                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-3 d-none d-sm-block">
@@ -61,6 +61,9 @@
 
                                          <li>{{__('areas.texto20')}} </li>
                                         </ol>
+                                        <p class="text-center">
+                                         <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -97,6 +100,9 @@
                                       <li>{{__('areas.texto26')}}</li>
 
                                      </ol>
+                                     <p class="text-center">
+                                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                       </p>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +136,9 @@
                                          <li>  {{__('areas.texto29')}}</li>
                                       </ol>
 
-
+                                      <p class="text-center">
+                                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                       </p>
                                     </div>
                                 </div>
 
@@ -161,6 +169,9 @@
                                         <ol>
                                             <li>{{__('areas.texto30')}}</li>
                                         </ol>
+                                        <p class="text-center">
+                                            <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -188,17 +199,20 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>{{__('areas.texto6')}}</li>
+                                            <li>{{__('areas.texto31')}}</li>
 
-                                      <li>{{__('areas.texto7')}}</li>
+                                            <li>{{__('areas.texto32')}}</li>
 
-                                      <li>{{__('areas.texto8')}}</li>
+                                            <li>{{__('areas.texto33')}}</li>
 
-                                      <li>{{__('areas.texto9')}}</li>
+                                            <li>{{__('areas.texto34')}}</li>
 
-                                      <li>{{__('areas.texto10')}}</li>
+                                            <li>{{__('areas.texto35')}}</li>
 
                                         </ol>
+                                        <p class="text-center">
+                                            <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -228,16 +242,19 @@
 
                                   <div class="row">
                                     <div class="col-md-3 d-none d-sm-block">
-                                        <img src="/images/Agrario.jpg" class="img-fluid">
+                                        <img src="/images/Propiedad-intelectual.jpg" class="img-fluid">
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>{{__('areas.texto36')}}</li>
+                                            <li>{{__('areas.texto36')}}</li>
 
-                                      <li>{{__('areas.texto37')}}</li>
+                                            <li>{{__('areas.texto37')}}</li>
 
-                                      <li>{{__('areas.texto38')}}</li>
+                                            <li>{{__('areas.texto38')}}</li>
                                         </ol>
+                                        <p class="text-center">
+                                            <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -269,15 +286,17 @@
                                     </div>
                                     <div class="col-md-9 listado col-12">
                                         <ol>
-                                      <li>  {{__('areas.texto39')}}</li>
+                                            <li>  {{__('areas.texto39')}}</li>
 
-                                      <li>  {{__('areas.texto40')}}</li>
+                                            <li>  {{__('areas.texto40')}}</li>
 
-                                      <li>  {{__('areas.texto41')}}</li>
+                                            <li>  {{__('areas.texto41')}}</li>
 
-                                      <li>  {{__('areas.texto42')}}</li>
+                                            <li>  {{__('areas.texto42')}}</li>
                                         </ol>
-
+                                        <p class="text-center">
+                                            <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                           </p>
                                     </div>
                                 </div>
 
@@ -312,6 +331,9 @@
                                         <ol>
                                             <li>{{__('areas.texto43')}}</li>
                                         </ol>
+                                        <p class="text-center">
+                                            <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
+                                        </p>
                                     </div>
                                 </div>
 

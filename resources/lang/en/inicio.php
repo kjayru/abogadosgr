@@ -10,7 +10,8 @@ return [
     "texto6" => "Quote now!",
     "texto7" => "Go to our success cases",
     "texto8" => "Cases of Success",
-    "texto9"=>" Professional services are considered essentially personal. They depend on the ability and individual effort of those attorneys that provide them. García-Corral y Rodríguez has the resources, infrastructure, experience and knowledge required to handle complex cases.",
+    "texto9"=>" Professional services are considered essentially personal. They depend on the ability and individual effort of those attorneys that provide them.
+    <span> García-Corral y Rodríguez has the resources, infrastructure, experience and knowledge required to handle complex cases.</span>",
 
      "texto10" => "Contact us",
     "texto11"=>"ADDRESS",

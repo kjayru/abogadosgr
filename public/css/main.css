@@ -117,9 +117,12 @@ body{
     font-size: 20px;
     color:#706F6F;
 }
-
+.btn-link:hover {
+    color: #008B84;
+    text-decoration: underline;
+}
 .lienzo {
-    height: 100vh;
+    min-height: 100vh;
 }
 .lienzo2 {
     height: 100vh;
@@ -327,7 +330,7 @@ footer.footer.fondo-verde {
     font-weight: bold;
 }
 .blq-contacto .subtitulo {
-    padding-top: 43%;
+    padding-top: 60%;
 }
 .text-upper{
     text-transform: uppercase;
@@ -355,12 +358,12 @@ footer.footer.fondo-verde {
     background:url(/images/Nuestros-abogados.jpg) no-repeat center center;
     background-size: cover;
 }
-.titulo-abogado:after{
-    content:"";
+.titulo-abogado:after {
+    content: "";
     width: 95%;
     position: absolute;
     height: 1px;
-    background: #03C7C7;
+    background: #008B84;
     bottom: 0;
     left: 3%;
 }
@@ -382,10 +385,9 @@ h1.titulo-abogado {
     font-weight: 700;
     font-family: HelveticaNeueLTPro-Md;
 }
-h1.titulo-abogado span{
-    color: #03C7C7;
+h1.titulo-abogado span {
+    color: #008B84;
 }
-
 h1.titulo-alcance {
     padding-top: 90px;
     padding-left: 4rem;
@@ -395,12 +397,12 @@ h1.titulo-alcance {
     font-family: HelveticaNeueLTPro-Md;
 }
 
-.titulo-alcance:after{
-    content:"";
+.titulo-alcance:after {
+    content: "";
     width: 95%;
     position: absolute;
     height: 1px;
-    background: #03C7C7;
+    background: #008B84;
     bottom: 0;
     left: 3%;
 }
@@ -623,6 +625,7 @@ h1.titulo-seccion {
     padding-top: 107px;
     padding-left: 32px;
     font-weight: 500;
+    font-family: 'HelveticaNeueLTPro-Md';
 }
 .bright {
     position: absolute;
@@ -648,7 +651,7 @@ h1.titulo-seccion {
 }
 
 .bloque-casos {
-    background: #03C7C7;
+    background: #008B84;
     color: white;
     padding: 35px 120px 30px 41px;
     left: 70px;
@@ -731,7 +734,7 @@ li.nav-item {
 }
 
 #nosotros .contenido {
-    color: #008B84;
+    color: #706F6F;
     font-weight: 500;
 }
 #section2 p {
@@ -740,8 +743,8 @@ li.nav-item {
 }
 p.texto-resaltado {
     color: #008B84;
-    font-size: 1.5rem !important;
-    line-height: 35px !important;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
     padding-top: 41px;
 }
 .contenido.texto-white.op1 {
@@ -902,7 +905,27 @@ li.nav-item.active {
     top: -43px;
     position: relative;
 }
-
+.blq-casos p span {
+    display: block;
+    padding-top: 1rem;
+    color: #008b84;
+}
+#section5 .subtitulo:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color:transparent;
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    z-index: 1000;
+}
+footer a {
+    color: white;
+}
+footer a:active, footer a:hover{
+    color:white;
+}
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
 

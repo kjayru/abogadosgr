@@ -9,7 +9,7 @@
                     <img src="/images/Logo.png" class="img-fluid">
                 </div>
                 <div class="d-flex align-items-end ml-auto col-md-4 copy text-right">
-                    <p>Design by: COBO’s</p>
+                    <p><a href="https://cobos.com.mx/" target="_blank">Design by: COBO’s</a></p>
                 </div>
 
         </div>

@@ -1,7 +1,7 @@
 <?php
 return [
     "25years"=>"+25 años",
-    "exitos"=>"Exitos",
+    "exitos"=>"Éxitos",
     "especialidad"=>"Especialidad",
     "texto1" =>"Profesionales expertos en la práctica jurídica con más de 25 años de experiencia.",
     "texto2" =>"Somos un despacho de abogados con éxitos nacionales e internacionales.",

@@ -40,7 +40,7 @@
                     </p>
                     <img src="/images/logo-content.png" class="img-fluid" data-aos="zoom-in">
                     <p class="texto-resaltado " data-aos="fade-left">
-                        {{__('nosotros.texto4')}}
+                        {{__('nosotros.texto5')}}
                     </p>
                 </div>
 

@@ -12,7 +12,7 @@ return [
     jurídicos del despacho, de tal forma que los desarrolladores se encuentren legalmente protegidos.
     Pocos despachos tienen la capacidad de manejar todo el proceso como lo maneja García Corral y Rodríguez.",
     "texto5"=>"Áreas de práctica:",
-    "texto6"=>"Commercial, corporate, real estate, land, administrative, banking, financial, securities and constitutional law.",
+    "texto6"=>"Mercantil, corporativo, inmobiliario, agrario, administrativo, bancario, financiero, bursátil y amparo",
 
     "texto7"=>"Originario de Monterrey, Nuevo León, México. Recibido como Licenciado en Derecho por Universidad de Monterrey
     el año de 1983. Cuenta con estudios en derechos internacional y comparado a través del programa conjunto de
