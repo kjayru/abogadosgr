@@ -4,8 +4,8 @@
 <main id="home">
 
 <section id="section1" class="relativo">
-    <div class="container-fluid lienzo">
-        <div class="row justify-content-center rowset">
+    <div class="container-fluid lienzo bg-movil1">
+        <div class="row justify-content-center rowset ">
             <div class="col-md-7 col-12">
                 <div class="logo" data-aos="zoom-in">
                     <img src="/images/Logo.png" class="img-fluid">
@@ -54,8 +54,8 @@
 </section>
 <section id="section2" class=" corte" >
     <div class="container-fluid ">
-        <div class="row" data-aos="fade-right">
-            <div class="col-md-12">
+        <div class="row rowset" data-aos="fade-right">
+            <div class="col-md-12 p-0">
 
                     <div class="slideabogado">
 
@@ -64,12 +64,12 @@
                                 <div class="tituloverde texto-verde flotante">
                                    {!!__('inicio.texto4')!!}
                                 </div>
-                                <div class="col-md-4 p0 m0 col-6" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
+                                <div class="col-md-4  col-6" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0 col-6 " style="background:url(/images/Paisaje-Monterrey-Abogados-Recortado.jpg) no-repeat center center; background-size:cover;">
+                                <div class="col-md-8   col-6 " style="background:url(/images/Paisaje-Monterrey-Abogados-Recortado.jpg) no-repeat center center; background-size:cover; ">
 
                                 </div>
                             </div>
@@ -77,13 +77,13 @@
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0 d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
+                                <div class="col-md-4  d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="marco">
 
                                        <div class="textobox texto-rojo">Hernán</div>
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0 col-12 imarco" style="background:url(/images/Hernan.jpg) no-repeat center center; background-size:cover;">
+                                <div class="col-md-8  col-12 imarco" style="background:url(/images/Hernan.jpg) no-repeat center center; background-size:cover; ">
                                     <div class="textobox texto-rojo d-block d-sm-none">Hernán</div>
                                 </div>
                             </div>
@@ -91,28 +91,28 @@
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0  d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4   d-none d-sm-block " style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover; ">
                                     <div class="marco">
 
                                         <div class="textobox texto-azul">Jaime</div>
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/Jaime.jpg) no-repeat center center; background-size:cover;">
-                                    <div class="textobox texto-rojo d-block d-sm-none">Jaime</div>
+                                <div class="col-md-8  imarco" style="background:url(/images/Jaime.jpg) no-repeat center center; background-size:cover; ">
+                                    <div class="textobox texto-azul d-block d-sm-none">Jaime</div>
                                 </div>
                             </div>
                         </div>
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0 d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4  d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover; ">
                                     <div class="marco">
                                         <div class="textobox texto-marron text-center">Francisco<br> Javier</div>
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/FcoJavier-recortado.jpg) no-repeat center center; background-size:cover;">
-                                    <div class="textobox texto-rojo d-block d-sm-none">Francisco Javier</div>
+                                <div class="col-md-8  imarco" style="background:url(/images/FcoJavier-recortado.jpg) no-repeat center center; background-size:cover; ">
+                                    <div class="textobox texto-marron d-block d-sm-none">Francisco Javier</div>
                                 </div>
                             </div>
                         </div>
@@ -120,14 +120,14 @@
 
                         <div>
                             <div class="row">
-                                <div class="col-md-4 p0 m0 d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
+                                <div class="col-md-4 d-none d-sm-block" style="background:url(/images/FondoAbogados-recortado.jpg) no-repeat center center;  background-size:cover;">
                                     <div class="marco">
                                         <div class="textobox texto-azul">Oziel</div>
 
                                     </div>
                                 </div>
-                                <div class="col-md-8 p0 m0 imarco" style="background:url(/images/Oziel-representacion.jpg) no-repeat center center; background-size:cover;">
-                                    <div class="textobox texto-rojo d-block d-sm-none">Oziel</div>
+                                <div class="col-md-8  imarco" style="background:url(/images/Oziel-representacion.jpg) no-repeat center center; background-size:cover;">
+                                    <div class="textobox texto-azul d-block d-sm-none">Oziel</div>
                                 </div>
                             </div>
                         </div>
@@ -214,40 +214,57 @@
 
 
                     <div class="p-2 radiopress col">
-                        <picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture>
-                        <p>Corporativo,<br> Societario y Mercantil</p>
+                        <div class="circle">
+                            <picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture>
+                            <p>Corporativo,<br> Societario y Mercantil</p>
+                         </div>
+
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture>
                         <p>Inmobiliario</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture>
                         <p>Agrario</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture>
                         <p>Administrativo</p>
+                        </div>
                     </div>
 
 
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture>
                         <p>Laboral</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture>
                         <p>Propiedad <br>Intelectual</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture>
                         <p>Bancario,<br>
                             Financiero y <br>
                             Bursátil</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress col">
+                        <div class="circle">
                         <picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture>
                         <p>Penal</p>
+                        </div>
                     </div>
 
 
@@ -285,7 +302,7 @@
 
         <div class="row rowset">
 
-            <div class="col-md-8 pad pad-left pad-bottom pad-right" data-aos="fade-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
+            <div class="col-md-8 pad pad-left pad-bottom pad-right bg-sala" data-aos="fade-right" >
                 <div class="titulo titulo-bold texto-gris">{{ __('inicio.texto10')}}</div>
 
                     <form action="" class="formgen">

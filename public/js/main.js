@@ -45,8 +45,19 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 4000
+        autoplay: false,
+        autoplaySpeed: 4000,
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false
+              }
+            }
+        ]
     });
 
 
