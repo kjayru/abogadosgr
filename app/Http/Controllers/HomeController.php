@@ -32,4 +32,7 @@ class HomeController extends Controller
     public function contacto(){
         return view('contacto');
     }
+    public function gracias(){
+        return view('gracias');
+    }
 }

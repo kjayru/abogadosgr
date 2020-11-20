@@ -6,4 +6,5 @@ return [
     "casos"=>"casos-de-exito",
     "blog"=>"blog",
     "contacto"=>"contacto",
+    "gracias"=>"gracias"
 ];

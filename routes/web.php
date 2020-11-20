@@ -49,6 +49,7 @@ Route::group(['prefix'=>'{language}'],function(){
         Route::get('casos-de-exito',[HomeController::class, 'casos'])->name('casos');
         Route::get('blog',[HomeController::class, 'blog'])->name('blog');
         Route::get('contacto',[HomeController::class, 'contacto'])->name('contacto');
+        Route::post('gracias',[HomeController::class, 'gracias'])->name('gracias');
 
     }
     if(Request::segment(1)=="en"){
@@ -59,6 +60,7 @@ Route::group(['prefix'=>'{language}'],function(){
         Route::get('success-stories',[HomeController::class, 'casos'])->name('casos');
         Route::get('blog',[HomeController::class, 'blog'])->name('blog');
         Route::get('contact',[HomeController::class, 'contacto'])->name('contacto');
+        Route::post('thank-you',[HomeController::class, 'gracias'])->name('gracias');
 
     }
 

@@ -20,8 +20,8 @@
             <div class="row">
 
                 <div class="col-md-12 p-5" data-aos="fade-up">
-                    <form action="" class="formgen">
-
+                    <form action="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.gracias')}}" method="POST" class="formgen">
+                        @csrf
                         <div class="form-row">
                             <div class="form-group col-md-6 col-12">
                                 <input type="text" class="form-control" name="nombre" placeholder="{{__('contacto.texto2')}}">

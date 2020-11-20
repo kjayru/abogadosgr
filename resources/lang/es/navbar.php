@@ -7,5 +7,6 @@ return [
     "casos" => "Casos de Éxito",
     "blog"=>"Blog",
     "contacto"=>"Contacto",
-    "cotizar"=>"Cotizar"
+    "cotizar"=>"Cotizar",
+    "gracias"=>"gracias"
 ];

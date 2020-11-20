@@ -51,7 +51,7 @@
                     </div>
                   </li>
                 <li class="nav-item">
-                    <a class="btn btn-default btn-cotizar botones fondo-boton mayor" href="#">{{__('navbar.cotizar')}}</a>
+                    <a class="btn btn-default btn-cotizar botones fondo-boton mayor" href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}">{{__('navbar.cotizar')}}</a>
                 </li>
             </ul>
 
