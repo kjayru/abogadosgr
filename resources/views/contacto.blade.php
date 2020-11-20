@@ -84,7 +84,7 @@
         <div class="boxaddress">
             <span class="texto-verde2">{{__('contacto.texto11')}}</span><br>
             Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
-            <b><img src="/images/Logocolor.png" width="40"></b>
+            <b><img src="/images/logocolor.png" width="40"></b>
         </div>
     </section>
 
