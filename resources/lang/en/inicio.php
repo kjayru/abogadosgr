@@ -20,4 +20,13 @@ return [
     "texto13" =>"Subject",
     "texto14" =>"Write your message here",
     "texto15" =>"Send",
+
+    "texto16" => "Corporate and<br> Commercial",
+    "texto17" => "Real estate",
+    "texto18" => "Agrarian",
+    "texto19" => "Administrative",
+    "texto20" => "Labor",
+    "texto21" => "Intellectual <br>property",
+    "texto22" => "Banking,<br>Financial y <br> Stock market",
+    "texto23" => "Penal",
 ];

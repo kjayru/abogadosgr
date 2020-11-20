@@ -20,4 +20,13 @@ return [
     "texto13" =>"Asunto",
     "texto14" =>"Escribe tu mensaje aqui",
     "texto15" =>"Enviar",
+
+    "texto16" => "Corporativo,<br> Societario y Mercantil",
+    "texto17" => "Inmobiliario",
+    "texto18" => "Agrario",
+    "texto19" => "Administrativo",
+    "texto20" => "Laboral",
+    "texto21" => "Propiedad <br>Intelectual",
+    "texto22" => "Bancario,<br>Financiero y <br> Bursátil",
+    "texto23" => "Penal",
 ];

@@ -156,7 +156,7 @@
                         <picture>
                             <img src="/images/Servicio-Corporativo.png" class="img-fluid" >
                         </picture>
-                        <p>Corporativo,<br> Societario y Mercantil</p>
+                        <p> {!!__('inicio.texto16')!!}</p>
                        </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
@@ -164,7 +164,7 @@
                         <picture>
                             <img src="/images/Servicio-Inmobiliario.png"  class="img-fluid">
                         </picture>
-                        <p>Inmobiliario</p>
+                        <p>{!!__('inicio.texto17')!!}</p>
                     </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
@@ -172,7 +172,7 @@
                         <picture>
                             <img src="/images/Servicio-Agrario.png"  class="img-fluid">
                         </picture>
-                        <p>Agrario</p>
+                        <p>{!!__('inicio.texto18')!!}</p>
                     </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
@@ -180,7 +180,7 @@
                         <picture>
                             <img src="/images/Servicio-Administrativo.png"  class="img-fluid">
                         </picture>
-                        <p>Administrativo</p>
+                        <p>{!!__('inicio.texto19')!!}</p>
                     </div>
                     </div>
 
@@ -192,7 +192,7 @@
                         <picture>
                             <img src="/images/Servicio-Laboral.png" class="img-fluid" >
                         </picture>
-                        <p>Laboral</p>
+                        <p>{!!__('inicio.texto20')!!}</p>
                     </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
@@ -200,7 +200,7 @@
                         <picture>
                             <img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid">
                         </picture>
-                        <p>Propiedad <br>Intelectual</p>
+                        <p>{!!__('inicio.texto21')!!}</p>
                     </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
@@ -208,9 +208,7 @@
                         <picture>
                             <img src="/images/Servicio-Bancario.png"  class="img-fluid">
                         </picture>
-                        <p>Bancario,<br>
-                            Financiero y <br>
-                            Bursátil</p>
+                        <p>{!!__('inicio.texto22')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress bottomradio" data-aos="zoom-in">
@@ -218,7 +216,7 @@
                         <picture>
                             <img src="/images/Servicio-Penal.png"  class="img-fluid">
                         </picture>
-                        <p>Penal</p>
+                        <p>{!!__('inicio.texto23')!!}</p>
                     </div>
                     </div>
 
@@ -232,26 +230,26 @@
                     <div class="p-2 radiopress col">
                         <div class="circle">
                             <picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture>
-                            <p>Corporativo,<br> Societario y Mercantil</p>
+                            <p>{!!__('inicio.texto16')!!}</p>
                          </div>
 
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture>
-                        <p>Inmobiliario</p>
+                        <p>{!!__('inicio.texto17')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture>
-                        <p>Agrario</p>
+                        <p>{!!__('inicio.texto18')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture>
-                        <p>Administrativo</p>
+                        <p>{!!__('inicio.texto19')!!}</p>
                         </div>
                     </div>
 
@@ -259,27 +257,25 @@
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture>
-                        <p>Laboral</p>
+                        <p>{!!__('inicio.texto20')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture>
-                        <p>Propiedad <br>Intelectual</p>
+                        <p>{!!__('inicio.texto21')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture>
-                        <p>Bancario,<br>
-                            Financiero y <br>
-                            Bursátil</p>
+                        <p>{!!__('inicio.texto22')!!}</p>
                         </div>
                     </div>
                     <div class="p-2 radiopress col">
                         <div class="circle">
                         <picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture>
-                        <p>Penal</p>
+                        <p>{!!__('inicio.texto23')!!}</p>
                         </div>
                     </div>
 
