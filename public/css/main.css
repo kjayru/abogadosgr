@@ -1743,4 +1743,7 @@ section#section3 {
     .pl-7 {
         padding-left: 2rem !important;
     }
+    #contacto h1.titulo-seccion.texto-verde2 {
+        font-size: 3rem;
+    }
  }
