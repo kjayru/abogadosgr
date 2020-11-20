@@ -8,19 +8,19 @@
             <div class="row justify-content-start rowset">
                 <div class="col-md-3 bloq" data-aos="fade-right">
                     <div class="subtitulo">{{__('nosotros.25years')}}</div>
-                    <div class="contenido">
+                    <div class="contenido texto-verde2">
                         <p>{{__('nosotros.texto1')}}</p>
                     </div>
                 </div>
                 <div class="col-md-3 bloq" data-aos="fade-up">
                     <div class="subtitulo">{{__('nosotros.exitos')}}</div>
-                    <div class="contenido">
+                    <div class="contenido texto-verde2">
                         <p>{{__('nosotros.texto2')}}</p>
                     </div>
                 </div>
                 <div class="col-md-3 bloq" data-aos="fade-left">
                     <div class="subtitulo ending">{{__('nosotros.especialidad')}}</div>
-                    <div class="contenido">
+                    <div class="contenido texto-verde2">
                         <p>{{__('nosotros.texto3')}}
                         </p>
                     </div>
@@ -38,12 +38,19 @@
                     <p data-aos="fade-left">
                         {{__('nosotros.texto4')}}
                     </p>
-                    <img src="/images/logo-content.png" class="img-fluid" data-aos="zoom-in">
+                    <figure class="d-block d-sm-none text-center">
+                    <img src="/images/Logo-movil.png"  class="img-fluid " alt="">
+                </figure>
+                    <img src="/images/logo-content.png" class="img-fluid d-none d-sm-block" data-aos="zoom-in">
+
                     <p class="texto-resaltado " data-aos="fade-left">
                         {{__('nosotros.texto5')}}
                     </p>
                 </div>
 
+                <div class="col-12 p-0 d-block d-sm-none">
+                    <img src="/images/MazoFirma.jpg"  class="img-fluid ">
+                </div>
             </div>
         </div>
     </section>
@@ -57,7 +64,7 @@
                 </div>
             </div>
            <div class="row rowset justify-content-end texto-pad1 texto-white" >
-               <div class="col-md-6" data-aos="fade-left">
+               <div class="col-md-6 p-0" data-aos="fade-left">
                     <p>{{__('nosotros.texto7')}}
                     </p>
                     <p>
@@ -105,7 +112,7 @@
                 </div>
             </div>
            <div class="row rowset justify-content-end texto-pad1 texto-grey" >
-               <div class="col-md-6" data-aos="fade-left">
+               <div class="col-md-6 p-0" data-aos="fade-left">
                     <p>
                         {{__('nosotros.texto16')}}
                     </p>

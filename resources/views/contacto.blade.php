@@ -50,7 +50,7 @@
                         </div>
                         <div class="form-group text-center">
 
-                            <button type="submit" class="btn btn-default fondo-boton botones">{{__('contacto.texto7')}}</button>
+                            <button type="submit" class="btn lipad btn-default fondo-boton botones">{{__('contacto.texto7')}}</button>
                         </div>
                     </form>
                 </div>
