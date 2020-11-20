@@ -64,11 +64,11 @@
             <div class="row">
                 <div class="col-md-6 text-left d-flex align-items-start">
                    <p> <span>{{__('contacto.texto8')}}</span>
-                    info@gcr.com.mx</p>
+                    <strong>info@gcr.com.mx</strong></p>
                 </div>
                 <div class="col-md-6 text-left d-flex align-items-end">
                     <p><span>{{__('contacto.texto9')}}</span>
-                    +52 81 8192-0132 / +52 81 8192-0133</p>
+                    <strong>+52 81 8192-0132 / +52 81 8192-0133</strong></p>
                 </div>
             </div>
         </div>
@@ -82,8 +82,9 @@
             </div>
         </div>
         <div class="boxaddress">
-            {{__('contacto.texto10')}}<br>
+            <span class="texto-verde2">{{__('contacto.texto11')}}</span><br>
             Juárez Nte. 898 Int. 2D, Colonia Centro, San Pedro Garza García, Nuevo León, México.  C.P. 66230
+            <b><img src="/images/Logocolor.png" width="40"></b>
         </div>
     </section>
 

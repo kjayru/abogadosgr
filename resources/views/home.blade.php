@@ -5,7 +5,7 @@
 
 <section id="section1" class="relativo">
     <div class="container-fluid lienzo">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center rowset">
             <div class="col-md-7 col-12">
                 <div class="logo" data-aos="zoom-in">
                     <img src="/images/Logo.png" class="img-fluid">
@@ -139,7 +139,7 @@
 </section>
 <section id="section3" class="p-5  ajedrez">
     <div class="container">
-        <div class="row">
+        <div class="row rowset">
                 <div class="col-md-12">
                     <div class="titulo text-center texto-gris" >
                       {!!__('inicio.texto5')!!}
@@ -147,7 +147,7 @@
                 </div>
 
         </div>
-        <div class="row d-none d-sm-block">
+        <div class="row rowset d-none d-sm-block">
            <div class="col-md-12 dradiocir">
 
                 <div class="d-flex justify-content-center ">
@@ -210,7 +210,7 @@
 
             </div>
            </div>
-        <div class="row d-block d-sm-none">
+        <div class="row rowset d-block d-sm-none">
 
 
                     <div class="p-2 radiopress col">
@@ -254,7 +254,7 @@
 
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row rowset justify-content-center">
             <div class="col-md-4 text-center p-5">
                 <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}" class="btn btn-default  botones fondo-boton">{{ __('inicio.texto6')}}</a>
             </div>
@@ -264,7 +264,7 @@
 <section id="section4">
     <div class="container-fluid">
 
-        <div class="row">
+        <div class="row rowset">
             <div class="col-md-4 blq-casos col-12" data-aos="fade-right">
                 <h2 class="casos-texto texto-verde2">{{ __('inicio.texto8')}}</h2>
                 <p>{!! __('inicio.texto9') !!}
@@ -283,7 +283,7 @@
 <section id="section5"  class="">
     <div class="container-fluid ">
 
-        <div class="row">
+        <div class="row rowset">
 
             <div class="col-md-8 pad pad-left pad-bottom pad-right" data-aos="fade-right" style="background:url(/images/SalaJuntas.jpg) no-repeat center center; background-size:cover;">
                 <div class="titulo titulo-bold texto-gris">{{ __('inicio.texto10')}}</div>

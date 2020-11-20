@@ -9,7 +9,8 @@
 #008B84
 #FD9C00
 */
-.row {
+
+.rowset {
     overflow: hidden !important;
 }
 .gris-claro{
@@ -829,9 +830,10 @@ button.btn.btn-arrow-right.slick-arrow {
     font-size: 6rem;
     font-weight: bold;
     left: 50%;
-    top: -29px;
+    top: -16px;
     z-index: 100;
     margin-left: -25px;
+    font-family: HelveticaNeueLTPro-Md;
 }
 #contacto section#section4 {
     position: relative;
@@ -850,7 +852,7 @@ button.btn.btn-arrow-right.slick-arrow {
 
 a.circulo.shaes {
     position: absolute;
-    top: 47%;
+    top: 43.7%;
     right: 50%;
     transform: translate(50%,-50%);
     background: white;
@@ -925,6 +927,33 @@ footer a {
 }
 footer a:active, footer a:hover{
     color:white;
+}
+.bloque-casos figure {
+    position: absolute;
+    top: 6px;
+    right: 7px;
+}
+section#section3 {
+    position: relative;
+}
+.seccioncasos:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #03c7c7;
+    position: absolute;
+    top: 48%;
+    left: 0;
+    z-index: 0;
+}
+.slick-arrow:hover {
+
+    background: #008B84 !important;
+}
+.boxaddress b {
+    position: absolute;
+    right: 7px;
+    bottom: 1px;
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {

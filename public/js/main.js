@@ -56,7 +56,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
         arrows:true,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         adaptiveHeight: true,
         nextArrow: '<button class="btn btn-arrow-right"><i class="fas fa-arrow-right"></i></button>',
         prevArrow: '<button class="btn btn-arrow-left"><i class="fas fa-arrow-left"></i></button>',

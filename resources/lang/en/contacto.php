@@ -11,5 +11,5 @@ return [
     "texto8"=>"WRITE US",
     "texto9"=>"CALL US",
     "texto10"=>"Address",
-    "texto11"=>"NOS UBICAMOS EN:",
+    "texto11"=>"ADDRESS:",
 ];
