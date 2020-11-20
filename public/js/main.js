@@ -45,7 +45,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         responsive: [
             {
