@@ -152,58 +152,74 @@
 
                 <div class="d-flex justify-content-center ">
                     <div class="p-2 radiopress topradio" data-aos="zoom-in">
+                       <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Corporativo.png" class="img-fluid" >
                         </picture>
                         <p>Corporativo,<br> Societario y Mercantil</p>
+                       </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Inmobiliario.png"  class="img-fluid">
                         </picture>
                         <p>Inmobiliario</p>
                     </div>
+                    </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Agrario.png"  class="img-fluid">
                         </picture>
                         <p>Agrario</p>
                     </div>
+                    </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Administrativo.png"  class="img-fluid">
                         </picture>
                         <p>Administrativo</p>
+                    </div>
                     </div>
 
                 </div>
 
                 <div class="d-flex justify-content-center ">
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Laboral.png" class="img-fluid" >
                         </picture>
                         <p>Laboral</p>
                     </div>
+                    </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid">
                         </picture>
                         <p>Propiedad <br>Intelectual</p>
                     </div>
+                    </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Bancario.png"  class="img-fluid">
                         </picture>
                         <p>Bancario,<br>
                             Financiero y <br>
                             Bursátil</p>
+                        </div>
                     </div>
                     <div class="p-2 radiopress bottomradio" data-aos="zoom-in">
+                        <div class="bcircle">
                         <picture>
                             <img src="/images/Servicio-Penal.png"  class="img-fluid">
                         </picture>
                         <p>Penal</p>
+                    </div>
                     </div>
 
                 </div>

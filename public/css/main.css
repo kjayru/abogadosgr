@@ -260,6 +260,17 @@ a.nav-link {
 }
 .radiopress{
     position: relative;
+
+}
+.bcircle{
+    transition: transform .2s;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+.bcircle:hover{
+    transform: scale(1.1) !important;
+    color:#008B84 !important;
 }
 
 .radiopress picture {
@@ -268,6 +279,7 @@ a.nav-link {
     width: 237px;
     text-align: center;
     height: 200px;
+
 }
 .radiopress:after {
     content: "";
