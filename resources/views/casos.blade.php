@@ -32,7 +32,7 @@
                 <div class="bloque-casos">
                     {{ __('casos.texto3')}}
                     <figure>
-                    <img src="/images/Logo-Iniciales.png" width="50">
+                    <img src="/images/logoblanco.png" width="50">
                 </figure>
                 </div>
 

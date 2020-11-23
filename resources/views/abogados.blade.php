@@ -20,7 +20,7 @@
             <div class="row lienzo rowset" >
                 <div class="col-md-6 lawyer1 order-1 order-sm-1 " data-aos="fade-right" >
                     <div class="boxlaw bright">
-                        <span><img src="/images/logocolor.png" width="40"></span>
+                        <span><img src="/images/logoblanco.png" width="40"></span>
                         Jaime Rodríguez Arévalo
                     </div>
                 </div>
@@ -62,7 +62,7 @@
 
                 <div class="col-md-6 lawyer2 order-1 order-sm-2" data-aos="fade-left">
                     <div class="boxlaw bleft">
-                        <span><img src="/images/logocolor.png" width="40"></span>
+                        <span><img src="/images/logoblanco.png" width="40"></span>
                         Hernán García-Corral
                     </div>
                 </div>
@@ -73,7 +73,7 @@
             <div class="row  rowset lienzo" >
                 <div class="col-md-6 lawyer3 order-1 order-sm-1" data-aos="fade-right">
                     <div class="boxlaw bright">
-                        <span><img src="/images/logocolor.png" width="40"></span>
+                        <span><img src="/images/logoblanco.png" width="40"></span>
                         Francisco Javier Tamez Ochoa
                     </div>
                 </div>
@@ -105,7 +105,7 @@
 
                 <div class="col-md-6 lawyer4 order-1 order-sm-2" data-aos="fade-left">
                     <div class="boxlaw bleft">
-                        <span><img src="/images/logocolor.png" width="40"></span>
+                        <span><img src="/images/logoblanco.png" width="40"></span>
                         Oziel Mireles Dávila
                     </div>
                 </div>
