@@ -8,12 +8,12 @@ return [
     "texto4" => " Nuestros <br>Abogados",
     "texto5" => "Áreas de especialidad",
     "texto6" => "¡Cotiza ahora!",
-    "texto7" => "Conoce nuestros casos de exito",
+    "texto7" => "Conoce nuestros casos de éxito",
     "texto8" => "Casos de éxito",
 
     "texto9"=>"Los servicios profesionales son considerados esencialmente personales, los cuales dependen de las habilidades y esfuerzo individual de aquellos  abogados que los provean.
     <span>García-Corral y Rodríguez cuenta con los recursos, infraestructura, experiencia y conocimientos requeridos para manejar asuntos de gran tamaño y calado.</span>",
-    "texto10" => "Contactanos",
+    "texto10" => "Contáctanos",
     "texto11"=>"DIRECCIÓN",
 
     "texto12" =>"Email",

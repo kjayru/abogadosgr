@@ -78,6 +78,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2" data-aos="fade-left">
+                    <div class="divcenter">
                     <p>{{ __('abogados.texto12')}}</p>
 
                         <hr>
@@ -87,6 +88,7 @@
                         <hr>
                         <b>{{ __('abogados.texto10')}}</b>
                        <p> {{ __('abogados.texto11')}}</p>
+                    </div>
                 </div>
             </div>
 
@@ -96,11 +98,14 @@
             <div class="row rowset lienzo" >
 
                 <div class="col-md-6 fondo-gris pad-10 texto-white texto-law order-2 order-sm-1" data-aos="fade-right">
+                   <div class="divcenter">
                     <p>{{ __('abogados.texto14')}}</p>
 
                         <hr>
                         <b>{{ __('abogados.texto5')}}</b>
                        <p> {{ __('abogados.texto15')}}</p>
+                    </div>
+
                 </div>
 
                 <div class="col-md-6 lawyer4 order-1 order-sm-2" data-aos="fade-left">

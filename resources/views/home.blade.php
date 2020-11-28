@@ -152,72 +152,100 @@
 
                 <div class="d-flex justify-content-center ">
                     <div class="p-2 radiopress topradio" data-aos="zoom-in">
-                       <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Corporativo.png" class="img-fluid" >
-                        </picture>
-                        <p> {!!__('inicio.texto16')!!}</p>
-                       </div>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#corporativo">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Corporativo.svg" class="img-fluid" >
+                                <img src="/images/Corporativo hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p> {!!__('inicio.texto16')!!}</p>
+                        </div>
+                        </a>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Inmobiliario.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto17')!!}</p>
-                    </div>
-                    </div>
-                    <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Agrario.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto18')!!}</p>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#inmobiliario">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Inmobiliario.svg"  class="img-fluid">
+                                <img src="/images/Inmobiliario hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p>{!!__('inicio.texto17')!!}</p>
+                        </a>
                     </div>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Administrativo.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto19')!!}</p>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#agrario">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Agrario.svg"  class="img-fluid">
+                                <img src="/images/Agrario hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p>{!!__('inicio.texto18')!!}</p>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#administrativo">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Admin.svg"  class="img-fluid">
+                                <img src="/images/Admin hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p>{!!__('inicio.texto19')!!}</p>
+                        </a>
                     </div>
                     </div>
 
                 </div>
 
                 <div class="d-flex justify-content-center ">
+
                     <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Laboral.png" class="img-fluid" >
-                        </picture>
-                        <p>{!!__('inicio.texto20')!!}</p>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#laboral">
+                            <div class="bcircle">
+                                <picture>
+                                    <img src="/images/Laboral.svg" class="img-fluid" >
+                                    <img src="/images/Laboral hover.svg" class="img-fluid" style="display:none;" >
+                                </picture>
+                                <p>{!!__('inicio.texto20')!!}</p>
+                            </div>
+                        </a>
                     </div>
+
+                    <div class="p-2 radiopress" data-aos="zoom-in">
+
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#propiedad">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Propiedad.svg"  class="img-fluid">
+                                <img src="/images/Propiedad hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p>{!!__('inicio.texto21')!!}</p>
+
+                            </div>
+                        </a>
                     </div>
                     <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto21')!!}</p>
-                    </div>
-                    </div>
-                    <div class="p-2 radiopress" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Bancario.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto22')!!}</p>
-                        </div>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#bancario">
+                            <div class="bcircle">
+                            <picture>
+                                <img src="/images/Bancario.svg"  class="img-fluid">
+                                <img src="/images/Bancario hover.svg" class="img-fluid" style="display:none;" >
+                            </picture>
+                            <p>{!!__('inicio.texto22')!!}</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="p-2 radiopress bottomradio" data-aos="zoom-in">
-                        <div class="bcircle">
-                        <picture>
-                            <img src="/images/Servicio-Penal.png"  class="img-fluid">
-                        </picture>
-                        <p>{!!__('inicio.texto23')!!}</p>
-                    </div>
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#penal">
+                            <div class="bcircle">
+                                <picture>
+                                    <img src="/images/Penal.svg"  class="img-fluid">
+                                    <img src="/images/Penal hover.svg" class="img-fluid" style="display:none;" >
+                                </picture>
+                                <p>{!!__('inicio.texto23')!!}</p>
+                            </div>
+                        </a>
                     </div>
 
                 </div>

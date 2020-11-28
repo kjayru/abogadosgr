@@ -274,13 +274,13 @@ a.nav-link {
 }
 
 .radiopress picture {
-    padding: 50px 50px;
+    padding: 50px 79px;
     display: block;
     width: 237px;
     text-align: center;
     height: 200px;
-
 }
+
 .radiopress:after {
     content: "";
     width: 280px;
@@ -676,8 +676,8 @@ h1.titulo-seccion {
     line-height: 44px;
 }
 .texto-section {
-    font-size: 2.5rem;
-    line-height: 48px;
+    font-size: 2rem;
+    line-height: 39px;
     padding-top: 6rem;
     padding-left: 6rem;
 }
@@ -747,7 +747,7 @@ li.nav-item {
 }
 
 #nosotros .contenido {
-    color: #706F6F;
+
     font-weight: 500;
 }
 #section2 p {
@@ -916,8 +916,13 @@ li.nav-item.active {
     text-align: center;
     padding: 0 !important;
     margin: 0 !important;
-    top: -43px;
+    top: -40px;
     position: relative;
+    font-size: 1.1rem;
+    line-height: 23px;
+}
+.radiopress a{
+    color:#8D9298;
 }
 .blq-casos p span {
     display: block;
@@ -984,9 +989,15 @@ section#section3 {
     background: rgba(250,250,250,0.8);
 }
 
+.divcenter {
+    position: relative;
+    margin-top: 50%;
+    top: -25%;
+}
 
-
-
+picture img {
+    width: 92px;
+}
 
  @media (max-width: 768px){
 

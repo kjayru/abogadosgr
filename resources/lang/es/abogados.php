@@ -28,7 +28,7 @@ return [
      (nacional e internacional), propiedad intelectual (marcas, patentes, derechos de autor, franquicias),
      arbitraje y mediación.",
      "texto10"=>"Idiomas:",
-     "texto11"=>"Ingles",
+     "texto11"=>"Inglés",
 
      "texto12"=>"Nacido en Monterrey, Nuevo León. Recibido como Licenciado en Derecho por la Facultad Libre de Derecho
      de Monterrey el año 2000.",

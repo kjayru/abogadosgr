@@ -1,3 +1,5 @@
+//const { get } = require("lodash");
+
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     AOS.init({ disable: 'mobile', delay: 0, once: true, });
     /*$(document.body).on('touchmove', onScroll);
@@ -171,7 +173,74 @@ $(document).on('ready',function(){
 
 
     $(".radio").on('click',function(){
-        $(".radio").removeClass("activo");
-        $(this).addClass("activo");
+       // $(".radio").removeClass("activo");
+       // $(this).addClass("activo");
+        $(this).toggleClass( "activo");
     });
+
+
+    $(".radiopress picture").hover(
+        function(){
+            $(this).children('img:nth(0)').hide();
+            $(this).children('img:nth(1)').show();
+        },
+        function(){
+            $(this).children('img:nth(0)').show();
+            $(this).children('img:nth(1)').hide();
+        });
+
+
+    var gethash = window.location.hash;
+    switch (gethash) {
+        case "#corporativo":
+            $(".collapse2").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 900 }, 600,"swing");
+            $("#headingTwo button").addClass("activo");
+        break;
+        case "#inmobiliario":
+            $(".collapse1").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 900}, 600,"swing");
+            $("#headingOne button").addClass("activo");
+        break;
+
+        case "#agrario":
+            $(".collapse3").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1000}, 600,"swing");
+            $("#headingThree button").addClass("activo");
+
+        break;
+
+        case "#administrativo":
+            $(".collapse4").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1100}, 600,"swing");
+            $("#headingcuatro button").addClass("activo");
+
+        break;
+
+        case "#laboral":
+            $(".collapse5").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1100}, 600,"swing");
+            $("#headingcinco button").addClass("activo");
+        break;
+
+        case "#propiedad":
+            $(".collapse6").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1200}, 600,"swing");
+            $("#headingseis button").addClass("activo");
+        break;
+
+        case "#bancario":
+            $(".collapse7").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1200}, 600,"swing");
+            $("#headingsiete button").addClass("activo");
+        break;
+
+        case "#penal":
+            $(".collapse8").collapse('show');
+            $("html, body").delay(600).animate({ scrollTop: 1250}, 600,"swing");
+            $("#headingocho button").addClass("activo");
+        break;
+
+
+    }
 });
