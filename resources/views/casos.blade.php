@@ -3,7 +3,7 @@
 @section('content')
 <main id="casos">
 
-    <section id="section1" class="pad-10 fondo-gris2 titular">
+    <section id="section1" class="pad-10 fondo-gris2 titular d-flex align-items-center">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" data-aos="zoom-in">

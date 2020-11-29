@@ -4,7 +4,7 @@
 <main id="contacto">
 
 
-    <section id="section1" class="pad-10 bg-contacto">
+    <section id="section1" class="pad-10 bg-contacto titular d-flex align-items-center">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" data-aos="zoom-in">
@@ -21,7 +21,9 @@
 
                 <div class="col-md-12 p-5" data-aos="fade-up">
                     <form action="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.gracias')}}" method="POST" class="formgen">
+
                         @csrf
+                        <input type="hidden" name="tipo" value="contacto">
                         <div class="form-row">
                             <div class="form-group col-md-6 col-12">
                                 <input type="text" class="form-control" name="nombre" placeholder="{{__('contacto.texto2')}}">

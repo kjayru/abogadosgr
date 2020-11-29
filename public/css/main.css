@@ -687,10 +687,9 @@ h1.titulo-seccion {
     border: 0;
 }
 .bg-contacto {
-    background: url(/images/Contacto-recortado.jpg);
+    background: url(/images/Contacto-recortado.jpg) no-repeat center center;
     background-size: cover;
-    padding-top: 290px !important;
-    padding-bottom: 220px !important;
+
 }
 .slider .card-header {
     padding: 39px 0 0 0;
@@ -769,7 +768,7 @@ p.texto-resaltado {
 
 .listado {
     padding-right: 12rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .listado p {
@@ -782,9 +781,8 @@ p.texto-resaltado {
     margin-bottom: 21px;
     padding-left: 17px;
 }
-
 .titular {
-    padding: 16rem 4rem 15rem !important;
+    height: calc(100vh - 70px);
 }
 
 .texto-law hr {
@@ -1040,7 +1038,7 @@ picture img {
     .texto-1 {
         width: 330px;
         height: 330px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
         padding-top: 2%;
         padding-left: 20px;
@@ -1119,7 +1117,7 @@ picture img {
         background-size: cover;
     }
     .texto-pad1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding: 28px;
         text-align: justify;
     }
@@ -1298,7 +1296,7 @@ picture img {
         color: white;
         width: 180px;
         height: 180px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 25px;
         position: absolute;
         padding-top: 50px;
@@ -1438,7 +1436,7 @@ picture img {
     }
     .nosotros-content .contenido {
         padding: 20px 8px 61px 8px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: lighter !important;
     }
     .titulo-blq {
@@ -1521,7 +1519,7 @@ picture img {
         overflow:hidden;
     }
     .textobox {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         position: absolute !important;
         bottom: 11px;
         left: 0;
@@ -1548,7 +1546,7 @@ picture img {
         margin: 0 !important;
         top: -26px;
         position: relative;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 21px;
     }
     .circle {
@@ -1677,7 +1675,7 @@ picture img {
         z-index: 101;
         top: 45%;
         width: 86%;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 30px;
         margin-top: -85px;
     }

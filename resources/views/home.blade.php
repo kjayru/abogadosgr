@@ -345,7 +345,10 @@
             <div class="col-md-8 pad pad-left pad-bottom pad-right bg-sala" data-aos="fade-right" >
                 <div class="titulo titulo-bold texto-gris">{{ __('inicio.texto10')}}</div>
 
-                    <form action="" class="formgen">
+                    <form action="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.gracias')}}" method="POST" class="formgen">
+
+                        @csrf
+                        <input type="hidden" name="tipo" value="home">
                         <div class="form-group">
                             <input type="email" class="form-control" name="email" placeholder="{{__('inicio.texto12')}}">
                         </div>
