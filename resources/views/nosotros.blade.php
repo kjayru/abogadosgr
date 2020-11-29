@@ -3,9 +3,10 @@
 @section('content')
 <main id="nosotros">
 
-    <section id="section1" class="p-5 pl-7 lienzo bg-nosotros">
+    <section id="section1" class="p-5 pl-7 lienzo bg-nosotros bloque1">
         <div class="container-fluid">
-            <div class="row justify-content-start rowset">
+            <div class="row justify-content-start rowset nosotro">
+
                 <div class="col-md-3 bloq" data-aos="fade-right">
                     <div class="subtitulo">{{__('nosotros.25years')}}</div>
                     <div class="contenido texto-verde2">
@@ -25,6 +26,9 @@
                         </p>
                     </div>
                 </div>
+                <picture class="nosotro__picture d-block d-sm-none">
+
+                </picture>
             </div>
         </div>
     </section>

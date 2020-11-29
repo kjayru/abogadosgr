@@ -252,59 +252,59 @@
 
             </div>
            </div>
-        <div class="row rowset d-block d-sm-none">
+        <div class="row rowset d-block d-sm-none servicios">
 
 
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                            <picture><img src="/images/Servicio-Corporativo.png" class="img-fluid" ></picture>
-                            <p>{!!__('inicio.texto16')!!}</p>
-                         </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#corporativo" class="servicios__link">
+                            <picture class="servicios__picture"><img src="/images/Servicio-Corporativo.png" class="img-fluid servicios__img" ></picture>
+                            <p class="servicios__texto">{!!__('inicio.texto16')!!}</p>
+                        </a>
 
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto17')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#inmobiliario" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Inmobiliario.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto17')!!}</p>
+                        </a>
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Agrario.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto18')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#agrario" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Agrario.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto18')!!}</p>
+                        </a>
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Administrativo.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto19')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#administrativo" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Administrativo.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto19')!!}</p>
+                        </a>
                     </div>
 
 
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Laboral.png" class="img-fluid" ></picture>
-                        <p>{!!__('inicio.texto20')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#laboral" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Laboral.png" class="img-fluid servicios__img" ></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto20')!!}</p>
+                        </a>
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto21')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#propiedad" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-PropiedadIntelectual.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto21')!!}</p>
+                        </a>
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Bancario.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto22')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#bancario" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Bancario.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto22')!!}</p>
+                        </a>
                     </div>
-                    <div class="p-2 radiopress col">
-                        <div class="circle">
-                        <picture><img src="/images/Servicio-Penal.png"  class="img-fluid"></picture>
-                        <p>{!!__('inicio.texto23')!!}</p>
-                        </div>
+                    <div class=" servicios__card">
+                        <a href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.areas')}}/#penal" class="servicios__link">
+                        <picture class="servicios__picture"><img src="/images/Servicio-Penal.png"  class="img-fluid servicios__img"></picture>
+                        <p class="servicios__texto">{!!__('inicio.texto23')!!}</p>
+                        </a>
                     </div>
 
 
@@ -337,8 +337,8 @@
 
     </div>
 </section>
-<section id="section5"  class="">
-    <div class="container-fluid ">
+<section id="section5" >
+    <div class="container-fluid">
 
         <div class="row rowset">
 

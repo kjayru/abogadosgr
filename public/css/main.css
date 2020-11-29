@@ -1119,7 +1119,7 @@ picture img {
     .texto-pad1 {
         font-size: 1.2rem;
         padding: 28px;
-        text-align: justify;
+        text-align: left;
     }
     .contenido.texto-white.op1 {
         padding-top: 60px;
@@ -1337,10 +1337,11 @@ picture img {
     }
 
     .texto-section {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 35px;
         padding-top: 1rem;
         padding-left: 0rem;
+        padding-bottom:30px;
     }
 
     .bloque-casos {
@@ -1589,8 +1590,8 @@ picture img {
     }
 
     .bg-nosotros {
-        background: url(/images/Fondo-BalanzaNosotros-Movil.png) no-repeat center center;
-        background-size: cover;
+        background: url(/images/balanza-movil.png) no-repeat center bottom;
+        background-size: contain;
     }
     .texto-verde2 {
         color: #008B84 !important;
@@ -1609,6 +1610,59 @@ picture img {
     .lipad{
         padding-left: 85px;
     padding-right: 85px;
+    }
+    .servicios__card {
+        position: relative;
+
+        padding-left: 10px;
+        border-bottom: 1px solid #B7BABE;
+        margin-top: 30px;
+        padding-bottom: 8px;
+    }
+    .servicios__link{
+        display: flex;
+        align-items: center;
+    }
+    .servicios__link:hover{
+        text-decoration: none;
+    }
+    .servicios__picture {
+        width: 20%;
+        display: inline-block;
+        padding: 0px 10px 0 10px;
+    }
+    .servicios__texto {
+        width: 75%;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        padding-top: 14px;
+        padding-left: 15px;
+        color:#707070;
+    }
+    .ajedrez .titulo {
+
+        margin-bottom: 10px !important;
+
+    }
+    .nosotro__picture {
+        height: 265px;
+        display: block;
+        width: 100%;
+    }
+    .contactos__contenedor {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .direccion {
+        font-size: 2rem;
+    }
+    .direccion__texto2 {
+        padding-right: 5rem;
+    }
+    .bloque1 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
  }
 
@@ -1632,7 +1686,7 @@ picture img {
         line-height: 40px;
     }
     .pad-10 {
-        padding: 1rem!important;
+        padding: 2rem!important;
     }
     h1.titulo-seccion {
         font-size: 3.5rem;
@@ -1667,9 +1721,9 @@ picture img {
     }
 
     .bloque-casos {
-        background: #03C7C7;
+        background: #008B84;
         color: white;
-        padding: 35px 20px 30px 20px;
+        padding: 47px 20px 30px 20px;
         left: 1.4rem;
         position: relative;
         z-index: 101;
@@ -1766,9 +1820,7 @@ picture img {
     }
 
 
-    .pl-7 {
-        padding-left: 2rem !important;
-    }
+
     #contacto h1.titulo-seccion.texto-verde2 {
         font-size: 3rem;
     }

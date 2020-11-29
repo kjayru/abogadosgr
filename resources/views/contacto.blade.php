@@ -17,9 +17,9 @@
     </section>
     <section id="section2">
         <div class="container">
-            <div class="row">
+            <div class="row contactos">
 
-                <div class="col-md-12 p-5" data-aos="fade-up">
+                <div class="col-md-12 p-5 contactos__contenedor" data-aos="fade-up">
                     <form action="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.gracias')}}" method="POST" class="formgen">
 
                         @csrf
@@ -63,14 +63,14 @@
 
     <section id="section3" class="fondo-verde2 texto-white" data-aos="fade-up">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 text-left d-flex align-items-start">
+            <div class="row direccion">
+                <div class="col-md-6 text-left d-flex align-items-start direccion__texto1">
                    <p> <span>{{__('contacto.texto8')}}</span>
                     <strong>info@gcr.com.mx</strong></p>
                 </div>
-                <div class="col-md-6 text-left d-flex align-items-end">
+                <div class="col-md-6 text-left d-flex align-items-end direccion__texto2">
                     <p><span>{{__('contacto.texto9')}}</span>
-                    <strong>+52 81 8192-0132 / +52 81 8192-0133</strong></p>
+                    <strong>+52 81 8192-0132 /  +52 81 8192-0133</strong></p>
                 </div>
             </div>
         </div>
