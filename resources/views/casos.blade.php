@@ -50,7 +50,7 @@
 
                     <div class="slideexito" data-aos="fade-left">
 
-                           <!-- <div class="slider">
+                         <div class="slider">
 
                                 <div class="numerico">1</div>
                                     <div class="card">
@@ -83,9 +83,9 @@
                                 </div>
                                 </div>
 
-                            </div>-->
+                            </div>
                             <div class="slider">
-                                <div class="numerico">1</div>
+                                <div class="numerico">3</div>
                                     <div class="card">
                                         <div class="card-header">
                                             <img src="/images/Casos-exito-fondos-07.jpg" class="img-fluid">
@@ -101,7 +101,7 @@
 
                             </div>
                             <div class="slider">
-                                <div class="numerico">2</div>
+                                <div class="numerico">4</div>
                                     <div class="card">
                                         <div class="card-header">
                                             <img src="/images/Casos-exito-fondos-06.jpg" class="img-fluid">
@@ -119,7 +119,7 @@
 
 
                             <div class="slider">
-                                <div class="numerico">3</div>
+                                <div class="numerico">5</div>
                                 <div class="card">
                                     <div class="card-header">
                                         <img src="/images/Casos-exito-fondos-05.jpg" class="img-fluid">
@@ -137,7 +137,7 @@
 
 
                             <div class="slider">
-                                <div class="numerico">4</div>
+                                <div class="numerico">6</div>
                                 <div class="card">
                                     <div class="card-header">
                                         <img src="/images/Casos-exito-fondos-04.jpg" class="img-fluid">
@@ -155,7 +155,7 @@
 
 
                             <div class="slider">
-                                <div class="numerico">5</div>
+                                <div class="numerico">7</div>
                                 <div class="card">
                                     <div class="card-header">
                                         <img src="/images/Casos-exito-fondos-03.jpg" class="img-fluid">
@@ -173,7 +173,7 @@
 
 
                             <div class="slider">
-                                <div class="numerico">6</div>
+                                <div class="numerico">8</div>
                                 <div class="card">
                                     <div class="card-header">
                                         <img src="/images/Casos-exito-fondos-02.jpg" class="img-fluid">
@@ -190,7 +190,7 @@
                             </div>
 
                             <div class="slider">
-                                <div class="numerico">7</div>
+                                <div class="numerico">9</div>
                                 <div class="card">
                                     <div class="card-header">
                                         <img src="/images/Casos-exito-fondos.jpg" class="img-fluid">
