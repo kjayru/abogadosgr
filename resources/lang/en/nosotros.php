@@ -2,7 +2,7 @@
 return [
     "25years"=>"+25 years",
     "exitos"=>"Successes",
-    "especialidad"=>"Specialty",
+    "especialidad"=>"Practice",
     "texto1"=>"Legal experts with more than 25 years of experience.",
     "texto2"=>"We are a law office with national and international success.",
     "texto3"=>"Specialists that inspire trust by providing legal services in areas of law such as commercial, corporate, securities, real estate, labor and administrative law. ",

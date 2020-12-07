@@ -59,7 +59,7 @@
 @font-face {
     font-family: HelveticaNeueLTPro-Th;
     src: url('/fonts/HelveticaNeueLTPro-Th.eot');
-    src: local('☺'), url('/fonts/HelveticaNeueLTPro-Th.woff') format('woff'), url('/fonts/HelveticaNeueLTPro-Th.ttf') format('truetype'),
+    src: local('Ã¢ËœÂº'), url('/fonts/HelveticaNeueLTPro-Th.woff') format('woff'), url('/fonts/HelveticaNeueLTPro-Th.ttf') format('truetype'),
     url('/fonts/HelveticaNeueLTPro-Th.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -130,11 +130,7 @@ body{
 .lienzo2 {
     height: 100vh;
 }
-.titulo {
-    font-size: 6rem;
-    margin-bottom: 15px;
-    font-family: 'Work Sans', sans-serif;
-}
+
 .subtitulo {
     font-size: 3rem;
     font-family: 'Work Sans', sans-serif;
@@ -612,11 +608,11 @@ h1.titulo-seccion {
 }
 
 .lawyer1{
-    background: url(/images/Jaime03-areapractica.jpg) no-repeat 0px 0px;
+    background: url(/images/Jaime03-areapractica.jpg) no-repeat center 0px;
     background-size: cover;
 }
 .lawyer2{
-    background: url(/images/Hernan02-areapractica.jpg) no-repeat 0px 0px;
+    background: url(/images/Hernan02-areapractica.jpg) no-repeat center 0px;
     background-size: cover;
 }
 .lawyer3{
@@ -811,13 +807,15 @@ button.btn.btn-arrow-right.slick-arrow {
 
 .btn-arrow-left {
     position: absolute;
-    right: 10rem;
-    top: -80px;
+    left: 50%;
+    top: -5px;
+    margin-left: -34px;
 }
 .btn-arrow-right {
     position: absolute;
-    right: 6.5rem;
-    top: -80px;
+    left: 50%;
+    top: -5px;
+    margin-left: 20px;
 }
 
 .texto-sugerencia {
@@ -832,6 +830,7 @@ button.btn.btn-arrow-right.slick-arrow {
 
 .slideexito.slick-initialized.slick-slider{
     padding-top: 100px;
+    text-align: center;
 }
 .slider{
     position: relative;
@@ -999,6 +998,13 @@ picture img {
     width: 92px;
 }
 
+a.contacto__link {
+    color: white;
+}
+
+a.contacto__link:hover{
+    text-decoration: underline;
+}
  @media (max-width: 768px){
 
     #home #section1 {
@@ -1491,7 +1497,7 @@ picture img {
         width: 100%;
     }
     .ajedrez {
-        background: url(/images/Ajedrez02-recortado.jpg);
+        background: none;
         background-size: cover;
         padding: 2rem 0 !important;
     }
@@ -1504,10 +1510,6 @@ picture img {
         font-size: 1rem;
     }
 
-    .navbar-light .navbar-toggler-icon {
-
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-    }
 
     .bg1 {
         position: absolute;
@@ -1660,7 +1662,7 @@ picture img {
         font-size: 2rem;
     }
     .direccion__texto2 {
-        padding-right: 5rem;
+        padding-right: 2rem;
     }
     .bloque1 {
         padding-left: 1rem !important;
@@ -1670,12 +1672,44 @@ picture img {
     .slideexito .card-text {
         font-size: 1.1rem;
     }
+
+    .contacto__h1 {
+        margin-top: 0 !important;
+        font-size:3rem !important;
+    }
+
+    .contacto__seccion{
+         padding: 1rem !important;
+    }
+
+
+    .navbar-light .navbar-toggler-icon {
+
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+    button.navbar-toggler {
+        background: #008B84;
+        border-radius: 50%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    a.contacto__link {
+
+        font-size: 1.5rem;
+    }
+
+p.texto-resaltado {
+    color: #008B84;
+    font-size: 20px !important;
+    line-height: 35px !important;
+    padding-top: 41px;
+}
  }
 
- @media (max-width: 576px) {
+ @media (max-width: 320px) {
 
     .ajedrez {
-        background: url(/images/Ajedrez02-recortado.jpg);
+        background: none;
         background-size: cover;
         padding: 2rem 0 !important;
     }
@@ -1809,25 +1843,210 @@ picture img {
         color: white;
         padding: 15px 0 2rem 1rem;
     }
-    .botones {
-        border-radius: 23px;
-        color: white;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 10px;
-        font-size: 1.2rem;
-    }
-
-    button.navbar-toggler {
-        border-radius: 50%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background: #008b84;
-    }
-
 
 
     #contacto h1.titulo-seccion.texto-verde2 {
         font-size: 3rem;
+    }
+    .contacto__h1 {
+
+        font-size: 2.5rem !important;
+    }
+    a.contacto__link {
+
+        font-size: 1.5rem;
+    }
+
+    p.texto-resaltado {
+        color: #008B84;
+        font-size: 20px !important;
+        line-height: 35px !important;
+        padding-top: 41px;
+    }
+ }
+
+ @media(min-width:780px){
+    .blq-casos {
+        background-color: #1C2633;
+        color: white;
+        padding: 15px 0 3.5rem 2rem;
+    }
+
+ }
+
+ @media(min-width:992px){
+    a.nav-link {
+        font-size: 12px;
+    }
+
+    .blq-casos {
+        background-color: #1C2633;
+        color: white;
+        padding: 15px 0 3.5rem 2rem;
+    }
+    .titulo {
+        font-size: 5rem;
+        margin-bottom: 15px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .pad-left {
+        padding-left: 2rem;
+    }
+    .subtitulo {
+        font-size: 2.5rem;
+        font-family: 'Work Sans', sans-serif;
+        margin-bottom: 30px;
+        font-weight: bold;
+        position: relative;
+    }
+    .titulo2 {
+        font-size: 2.8rem;
+        font-weight: bold;
+        line-height: 58px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .nosotros-content .contenido {
+        padding: 20px 60px 200px 30px;
+        font-size: 1.7rem;
+        font-weight: lighter !important;
+    }
+
+    h1.titulo-seccion {
+        font-size: 9rem;
+        line-height: 155px;
+        font-weight: 700;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .ascensor h5 button {
+        font-size: 2rem;
+        width: 100%;
+        color: #706F6F;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 4rem;
+        font-family: 'Work Sans', sans-serif;
+    }
+    div#accordion {
+        margin-bottom: 80px;
+    }
+    .boxlaw {
+        background: #008B84;
+        color: white;
+        width: 280px;
+        height: 280px;
+        font-size: 2rem;
+        line-height: 43px;
+
+        padding-top: 107px;
+        padding-left: 32px;
+        font-weight: 500;
+        font-family: 'HelveticaNeueLTPro-Md';
+    }
+    .bloque-casos {
+        background: #008B84;
+        color: white;
+        padding: 35px 120px 30px 41px;
+        left: 70px;
+        position: absolute;
+        z-index: 101;
+        top: 52%;
+        width: 51%;
+        font-size: 1.5rem;
+        line-height: 34px;
+    }
+    .texto-section {
+        font-size: 1.5rem;
+        line-height: 30px;
+        padding-top: 6rem;
+        padding-left: 6rem;
+    }
+ }
+
+
+ @media(min-width:1200px){
+    a.nav-link {
+        font-size: 20px;
+    }
+
+    .blq-casos{
+        background-color: #1C2633;
+        color: white;
+        padding: 15px 0 3.5rem 7rem;
+    }
+    .titulo {
+        font-size: 6rem;
+        margin-bottom: 15px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .pad-left {
+        padding-left: 100px;
+    }
+    .subtitulo {
+        font-size: 3rem;
+        font-family: 'Work Sans', sans-serif;
+        margin-bottom: 30px;
+        font-weight: bold;
+        position: relative;
+    }
+    .titulo2 {
+        font-size: 4.5rem;
+        font-weight: bold;
+        line-height: 71px;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .nosotros-content .contenido {
+        padding: 20px 200px 200px 30px;
+        font-size: 1.7rem;
+        font-weight: lighter !important;
+    }
+    h1.titulo-seccion {
+        font-size: 11rem;
+        line-height: 155px;
+        font-weight: 700;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .ascensor h5 button {
+        font-size: 3.7rem;
+        width: 100%;
+        color: #706F6F;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 4rem;
+        font-family: 'Work Sans', sans-serif;
+    }
+    div#accordion {
+        margin-bottom: 80px;
+    }
+    .boxlaw {
+        background: #008B84;
+        color: white;
+        width: 280px;
+        height: 280px;
+        font-size: 3rem;
+        line-height: 43px;
+
+        padding-top: 107px;
+        padding-left: 32px;
+        font-weight: 500;
+        font-family: 'HelveticaNeueLTPro-Md';
+    }
+    .bloque-casos {
+        background: #008B84;
+        color: white;
+        padding: 35px 120px 30px 41px;
+        left: 70px;
+        position: absolute;
+        z-index: 101;
+        top: 45%;
+        width: 51%;
+        font-size: 2.5rem;
+        line-height: 44px;
+    }
+    .texto-section {
+        font-size: 2rem;
+        line-height: 39px;
+        padding-top: 6rem;
+        padding-left: 6rem;
     }
  }

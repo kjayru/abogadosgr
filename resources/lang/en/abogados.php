@@ -2,8 +2,8 @@
 return [
     "texto1"=>"Partners",
     "texto2"=>"Born in the city of Monterrey, Nuevo León, Mexico. Received his law degree from the University of Monterrey in 1982. He is the partner in charge of the real estate law department and has over 25 years of experience. He and his team have participated in multiple transactions between land owners and developers, as well as advising on all legal aspects inherent to real estate developments, from their inception until they are duly qualified to offer their product to the public –that is from the acquisition of land throughout the construction, sales or leases of units or lots to the public.",
-    "texto3"=>"Creativity and innovation are among his personal qualifications, always looking to improve our legal instruments in such way that all parties are legally protected. ",
-    "texto4"=>"Our firm has the resources and knowledge to handle these processes in an efficient and cost-effective manner.",
+    "texto3"=>"Creativity and innovation are among his personal qualifications, always looking to improve our legal instruments in such way that all parties are legally protected. Our firm has the resources and knowledge to handle these processes in an efficient and cost-effective manner.",
+    "texto4"=>"",
     "texto5"=>"Areas of Practice:",
     "texto6"=>"Commercial, corporate, real estate, land, administrative, banking, financial, securities and constitutional law.",
 

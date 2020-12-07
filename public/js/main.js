@@ -65,7 +65,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
     $('.slideexito').slick({
         dots: true,
-        infinite: true,
+        infinite: false,
         arrows:true,
         speed: 300,
         slidesToShow: 3,

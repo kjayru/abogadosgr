@@ -26,7 +26,7 @@
                     <a class="nav-link" href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.casos')}}">{{__('navbar.casos')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://medium.com/@juristasasesores" target="_blank">{{__('navbar.blog')}}</a>
+                    <a class="nav-link" href="https://medium.com/@gcrabogados" target="_blank">{{__('navbar.blog')}}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/{{ str_replace('_', '-', app()->getLocale()) }}/{{__('message.contacto')}}">{{__('navbar.contacto')}}</a>

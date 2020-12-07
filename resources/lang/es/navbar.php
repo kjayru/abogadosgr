@@ -2,7 +2,7 @@
 return [
     "inicio"=>"Inicio",
     "nosotros"=>"Nosotros",
-    "areas"=>"Areas de práctica",
+    "areas"=>"Áreas de práctica",
     "abogados"=>"Abogados",
     "casos" => "Casos de Éxito",
     "blog"=>"Blog",

@@ -4,12 +4,12 @@
 <main id="contacto">
 
 
-    <section id="section1" class="pad-10 bg-contacto titular d-flex align-items-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12" data-aos="zoom-in">
+    <section id="section1" class="pad-10 bg-contacto titular d-flex align-items-center contacto__seccion">
+        <div class="container-fluid contacto__container">
+            <div class="row contacto__row">
+                <div class="col-md-12 contacto__titulo" data-aos="zoom-in">
 
-                        <H1 class="titulo-seccion texto-verde2">{{__('contacto.texto1')}}</H1>
+                        <H1 class="titulo-seccion texto-verde2 contacto__h1">{{__('contacto.texto1')}}</H1>
 
                 </div>
             </div>
@@ -66,11 +66,11 @@
             <div class="row direccion">
                 <div class="col-md-6 text-left d-flex align-items-start direccion__texto1">
                    <p> <span>{{__('contacto.texto8')}}</span>
-                    <strong>info@gcr.com.mx</strong></p>
+                    <strong><a href="mailto:info@gcr.com.mx" class="contacto__link">info@gcr.com.mx</a></strong></p>
                 </div>
                 <div class="col-md-6 text-left d-flex align-items-end direccion__texto2">
                     <p><span>{{__('contacto.texto9')}}</span>
-                    <strong>+52 81 8192-0132 /  +52 81 8192-0133</strong></p>
+                    <strong><a href="telf:+52 81 8192-0132" class="contacto__link">+52 81 8192-0132</a> /  <a href="tefl:+52 81 8192-0133" class="contacto__link">+52 81 8192-0133</a></strong></p>
                 </div>
             </div>
         </div>

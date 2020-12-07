@@ -2,9 +2,9 @@
 return [
     "inicio"=>"Home",
     "nosotros"=>"About Us",
-    "areas"=>"Practice areas",
-    "abogados"=>"Lawers",
-    "casos" => "Success stories",
+    "areas"=>"Areas of Practice",
+    "abogados"=>"Lawyers",
+    "casos" => "Case of Success",
     "blog"=>"Blog",
     "contacto"=>"Contact",
     "cotizar"=>"Quote",
