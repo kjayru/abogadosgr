@@ -48,7 +48,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
         slidesToShow: 1,
         adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 600,
         responsive: [
             {
               breakpoint: 769,
