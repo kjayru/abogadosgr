@@ -1704,6 +1704,9 @@ p.texto-resaltado {
     line-height: 35px !important;
     padding-top: 41px;
 }
+div#map {
+    height: 600px;
+}
  }
 
  @media (max-width: 320px) {
@@ -1864,7 +1867,7 @@ p.texto-resaltado {
         padding-top: 41px;
     }
     #map {
-        height: 400px;
+        height: 500px;
       }
  }
 
