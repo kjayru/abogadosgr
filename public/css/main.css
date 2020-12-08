@@ -2049,4 +2049,7 @@ p.texto-resaltado {
         padding-top: 6rem;
         padding-left: 6rem;
     }
+    #map {
+        height: 400px;
+      }
  }

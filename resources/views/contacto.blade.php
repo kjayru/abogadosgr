@@ -79,7 +79,9 @@
         <div class="container-fluid"  class="p-0 m-0">
             <div class="row">
                 <div class="col-md-12 p-0 m-0">
-                    <img src="/images/mapa.png" class="img-fluid d-none d-sm-block">
+                    <!--<img src="/images/mapa.png" class="img-fluid d-none d-sm-block">-->
+
+                    <div id="map"></div>
                 </div>
             </div>
         </div>
