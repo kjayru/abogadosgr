@@ -245,7 +245,15 @@ $(document).on('ready',function(){
     }
 });
 
+$(".ascensor__h5").hover(
+function(){
 
+
+    $(this).children(".ascensor__figure").children('svg').children("g").find(".st1").css('fill','#008B84');
+}
+,function(){
+    $(this).children(".ascensor__figure").children('svg').children("g").find(".st1").css('fill','#706F6F');
+});
 
 let map;
 /*
@@ -260,9 +268,12 @@ function initMap() {
 function initMap() {
 
     var uluru = {lat: 25.6669742, lng:-100.4011448};
-    // The map, centered at Uluru
-     map = new google.maps.Map(
+   try {
+    map = new google.maps.Map(
         document.getElementById('map'), {zoom: 17, center: uluru});
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({position: uluru, map: map});
+    new google.maps.Marker({position: uluru, map: map});
+   } catch (error) {
+       console.log("no inicializado");
+   }
+
   }

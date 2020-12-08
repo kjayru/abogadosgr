@@ -392,7 +392,7 @@ h1.titulo-abogado {
     padding-top: 111px;
     padding-left: 4rem;
     font-size: 7rem;
-    line-height: 90px;
+    line-height: 118px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
@@ -485,10 +485,10 @@ h1.titulo-seccion {
     padding-left: 4rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*
 .asc1:after{
     content: "";
-    background: url(/images/Servicio-Inmobiliario.png) no-repeat 0px 0px;
+    background: url(/images/Inmobiliario.svg) no-repeat 0px 0px;
     width: 48px;
     height: 48px;
     position: absolute;
@@ -577,7 +577,7 @@ h1.titulo-seccion {
     left: 0;
     top: 37px;
 }
-
+*/
 
 
 .radio:before{
@@ -2043,13 +2043,13 @@ div#map {
     .bloque-casos {
         background: #008B84;
         color: white;
-        padding: 35px 120px 30px 41px;
+        padding: 35px 60px 30px 41px;
         left: 70px;
         position: absolute;
         z-index: 101;
-        top: 45%;
+        top: 54%;
         width: 51%;
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 44px;
     }
     .texto-section {
@@ -2062,10 +2062,21 @@ div#map {
         height: 700px;
       }
  }
-
-
-/**
-svg#Layer_1 g .st1 {
+ .asc1:after g .st1 {
     fill: green;
 }
-*/
+
+
+figure.ascensor__figure {
+    width: 45px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+svg#Layer_1 g .st1 {
+    fill: #706F6F;
+}
+
+

@@ -15,7 +15,7 @@ return [
     "texto10"=>"We seek to continue providing the best professional services, always in accordance with the applicable legal framework. ",
     "texto11"=>"We wish to attract new clients, who may further recommend us and who can trust that this law office will provide them accurate legal assistance.",
     "texto12"=>"Counseling in <br> Mexico",
-    "texto13"=>"In our country, we have stablished a broad network of professionals that have earned our trust, whom are located in Mexico City, Guadalajara, Querétaro, among others. ",
+    "texto13"=>"In our country, we have established a broad network of professionals that have earned our trust, whom are located in Mexico City, Guadalajara, Querétaro, among others. ",
     "texto14"=>"Our network of professionals are experts who we know in depth and who are recognized as having high personal and professional prestige. ",
     "texto15"=>"International  <br>Reach",
     "texto16"=>"Borders have never been a limitation. Even though the physical location of García Corral y Rodríguez´ office is in the city of Monterrey, Nuevo León, Mexico, we have immediate access to counseling services in several other countries, including the United States of America and Canada. This is so due to a careful selection of partners abroad. ",
