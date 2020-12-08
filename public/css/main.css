@@ -1871,7 +1871,7 @@ div#map {
       }
  }
 
- @media(min-width:780px){
+ @media(min-width:768px){
     .blq-casos {
         background-color: #1C2633;
         color: white;
@@ -1954,11 +1954,11 @@ div#map {
     .bloque-casos {
         background: #008B84;
         color: white;
-        padding: 35px 120px 30px 41px;
+        padding: 35px 59px 30px 41px;
         left: 70px;
         position: absolute;
         z-index: 101;
-        top: 52%;
+        top: 70%;
         width: 51%;
         font-size: 1.5rem;
         line-height: 34px;
@@ -2062,3 +2062,5 @@ div#map {
         height: 700px;
       }
  }
+
+
