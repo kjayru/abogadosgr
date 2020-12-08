@@ -44,11 +44,11 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     $('.slideabogado').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 600,
         slidesToShow: 1,
         adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 600,
+        autoplaySpeed: 1200,
         responsive: [
             {
               breakpoint: 769,
