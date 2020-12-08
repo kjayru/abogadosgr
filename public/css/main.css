@@ -1863,6 +1863,9 @@ p.texto-resaltado {
         line-height: 35px !important;
         padding-top: 41px;
     }
+    #map {
+        height: 400px;
+      }
  }
 
  @media(min-width:780px){
@@ -1871,6 +1874,9 @@ p.texto-resaltado {
         color: white;
         padding: 15px 0 3.5rem 2rem;
     }
+    #map {
+        height: 600px;
+      }
 
  }
 
@@ -2050,6 +2056,6 @@ p.texto-resaltado {
         padding-left: 6rem;
     }
     #map {
-        height: 400px;
+        height: 700px;
       }
  }
