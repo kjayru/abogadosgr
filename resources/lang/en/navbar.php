@@ -4,7 +4,7 @@ return [
     "nosotros"=>"About Us",
     "areas"=>"Areas of Practice",
     "abogados"=>"Lawyers",
-    "casos" => "Case of Success",
+    "casos" => "Cases of Success",
     "blog"=>"Blog",
     "contacto"=>"Contact",
     "cotizar"=>"Quote",

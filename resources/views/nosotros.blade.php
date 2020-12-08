@@ -3,6 +3,7 @@
 @section('content')
 <main id="nosotros">
 
+
     <section id="section1" class="p-5 pl-7 lienzo bg-nosotros bloque1">
         <div class="container-fluid">
             <div class="row justify-content-start rowset nosotro">

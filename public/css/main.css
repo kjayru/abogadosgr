@@ -741,6 +741,7 @@ li.nav-item {
     line-height: 95px;
     font-family: 'Montserrat', sans-serif;
     margin-top: -3.5rem;
+    font-weight: bold;
 }
 
 #nosotros .contenido {
@@ -2064,3 +2065,8 @@ div#map {
  }
 
 
+/**
+svg#Layer_1 g .st1 {
+    fill: green;
+}
+*/
