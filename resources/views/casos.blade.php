@@ -50,23 +50,24 @@
 
                     <div class="slideexito" data-aos="fade-left">
 
-                         <div class="slider">
 
-                                <div class="numerico">1</div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <img src="/images/Casos-exito-fondos-09.jpg" class="img-fluid">
-                                        </div>
-                                    <div class="card-body">
-                                        <div class="cuadro d-flex align-items-center">
-                                            <p class="card-text">
-                                                {{__('casos.texto5')}}
-                                        </p>
-                                        </div>
-                                    </div>
-                                    </div>
+                        <div class="slider">
+                            <div class="numerico">1</div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <img src="/images/Casos-exito-fondos.jpg" class="img-fluid">
+                                </div>
+                            <div class="card-body">
+                                <div class="cuadro d-flex align-items-center">
+                                    <p class="card-text">
 
+                                    {{__('casos.texto13')}}
+                                    </p>
+                                </div>
                             </div>
+                            </div>
+                        </div>
+
                             <div class="slider">
                                 <div class="numerico">2</div>
                                 <div class="card">
@@ -189,21 +190,25 @@
                                 </div>
                             </div>
 
-                            <div class="slider">
-                                <div class="numerico">9</div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <img src="/images/Casos-exito-fondos.jpg" class="img-fluid">
-                                    </div>
-                                <div class="card-body">
-                                    <div class="cuadro d-flex align-items-center">
-                                        <p class="card-text">
 
-                                        {{__('casos.texto13')}}
+
+
+                            <div class="slider">
+
+                                <div class="numerico">9</div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="/images/Casos-exito-fondos-09.jpg" class="img-fluid">
+                                        </div>
+                                    <div class="card-body">
+                                        <div class="cuadro d-flex align-items-center">
+                                            <p class="card-text">
+                                                {{__('casos.texto5')}}
                                         </p>
+                                        </div>
                                     </div>
-                                </div>
-                                </div>
+                                    </div>
+
                             </div>
 
 
