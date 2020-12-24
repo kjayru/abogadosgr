@@ -26,27 +26,27 @@
                         <input type="hidden" name="tipo" value="contacto">
                         <div class="form-row">
                             <div class="form-group col-md-6 col-12">
-                                <input type="text" class="form-control" name="nombre" placeholder="{{__('contacto.texto2')}}">
+                                <input type="text" class="form-control" name="nombre" placeholder="{{__('contacto.texto2')}}" required>
                             </div>
 
                             <div class="form-group col-md-6 col-12">
-                                <input type="text" class="form-control" name="asunto" placeholder="{{__('contacto.texto3')}}">
+                                <input type="text" class="form-control" name="asunto" placeholder="{{__('contacto.texto3')}}" required>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-6 col-12">
-                                <input type="email" class="form-control" name="email" placeholder="{{__('contacto.texto4')}}">
+                                <input type="email" class="form-control" name="email" placeholder="{{__('contacto.texto4')}}" required>
                             </div>
 
                             <div class="form-group col-md-6 col-12">
-                                <input type="phone" class="form-control" name="telefono" placeholder="{{__('contacto.texto5')}}">
+                                <input type="phone" class="form-control" name="telefono" placeholder="{{__('contacto.texto5')}}" required>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-12 col-12">
-                                <textarea class="form-control" placeholder="{{__('contacto.texto6')}}"></textarea>
+                                <textarea name="mensaje" class="form-control" placeholder="{{__('contacto.texto6')}}" required></textarea>
                             </div>
 
                         </div>

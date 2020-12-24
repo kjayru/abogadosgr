@@ -356,7 +356,7 @@
                             <input type="asunto" class="form-control" name="asunto" placeholder="{{__('inicio.texto13')}}">
                         </div>
                         <div class="form-group">
-                        <textarea class="form-control" placeholder="{{__('inicio.texto14')}}"></textarea>
+                        <textarea class="form-control" name="mensaje" placeholder="{{__('inicio.texto14')}}"></textarea>
                         </div>
                     <div class="form-group">
 
