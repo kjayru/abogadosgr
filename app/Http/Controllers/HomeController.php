@@ -108,7 +108,7 @@ $data = ["html"=>$htmlcode];
 
 
 
-Mail::to('wiltinoco@gmail.com')->send(new Contacts($data));
+Mail::to('tania@cobos.com.mx')->send(new Contacts($data));
 
         return view('gracias');
     }
