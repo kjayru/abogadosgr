@@ -1202,7 +1202,7 @@ a.contacto__link:hover{
     }
     .asc1:after {
         content: "";
-        background: url(/images/Servicio-Inmobiliario.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1218,7 +1218,7 @@ a.contacto__link:hover{
 
     .asc2:after{
         content:"";
-        background: url(/images/Servicio-Corporativo.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1229,7 +1229,7 @@ a.contacto__link:hover{
 
     .asc3:after{
         content:"";
-        background: url(/images/Servicio-Agrario.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1242,7 +1242,7 @@ a.contacto__link:hover{
 
     .asc4:after{
         content:"";
-        background: url(/images/Servicio-Administrativo.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1254,7 +1254,7 @@ a.contacto__link:hover{
 
     .asc5:after{
         content:"";
-        background: url(/images/Servicio-Laboral.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1265,7 +1265,7 @@ a.contacto__link:hover{
 
     .asc6:after{
         content:"";
-        background: url(/images/Servicio-PropiedadIntelectual.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1276,7 +1276,7 @@ a.contacto__link:hover{
 
     .asc7:after{
         content:"";
-        background: url(/images/Servicio-Bancario.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
@@ -1288,7 +1288,7 @@ a.contacto__link:hover{
 
     .asc8:after{
         content:"";
-        background: url(/images/Servicio-Penal.png) no-repeat 0px 0px;
+
         width: 35px;
         height: 35px;
         position: absolute;
