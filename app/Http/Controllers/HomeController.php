@@ -108,7 +108,7 @@ $data = ["html"=>$htmlcode];
 
 
 
-Mail::to('tania@cobos.com.mx')->send(new Contacts($data));
+Mail::to(env('MAIL_CONTACT'))->send(new Contacts($data));
 
         return view('gracias');
     }
